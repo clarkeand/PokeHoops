@@ -1,0 +1,38 @@
+# Project Proposal
+
+  Pokéhoops is a NBA database that utilizes NBA player stats to calculate a POKED (P.O.K.E.D. - Power, Offense, Kinetics, Endurance, Defense)
+  score of every active (and teamed) NBA player. The inital project will include a searchable player database with team rosters, user login
+  and a 'favorite player' button on each player's individual overview page. 
+
+## Technologies Required
+
+  - Hackbright Tech Stack (Flask, Jinja, Python, SQL, etc) 
+
+## Data Model
+
+  Link: https://dbdesigner.page.link/jXLUj42JfLCJd5kx9
+
+## Roadmap
+
+### MVP
+
+  - A searchable NBA player database that will allow searches and filters. 
+  - Using NBA player stats create a POKED Score that's based on z score variations away from the mean of each stat. (a player can have a negative POKED score)
+  - Individual NBA player pages that utilise the POKED score & regular season stats, and team pages that allow you to view the team's roster.
+  - User login that allows you to 'favorite' certain players. 
+
+### 2.0
+
+  - A player to player comparison feature that allows you to put 2 players head 2 head via their POKED score.
+  - Implement a leaderboard and ranking system to keep track of users' performance throughout the season (how their POKED fluctuates throughout the season).
+  - Make sure stats are up to date. 
+  
+### Nice-to-haves
+
+  - Design a user-friendly interface that makes it easy for users to search for players and teams, and make the site look good. 
+  - Create 'user' teams where a player can make a roster of 15 players but they have a $ limit of what they can spend. 
+
+## Notes
+  - Data will be taken from an NBA API: https://github.com/swar/nba_api
+  - NBA Player Images: https://medium.com/@avinash.sarguru/getting-nba-player-pictures-for-you-application-6106d5530943 
+  - Since this needs to be a pretty live with up to date features - figure out how frequently the stats are updated. 
