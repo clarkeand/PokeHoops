@@ -6,14 +6,15 @@ db = SQLAlchemy()
 
 class NBAPlayer(db.Model):
     """A single player."""
+    """player_id,player_name,team_id,poked_score,player_image"""
 
     __tablename__ = "nbaplayers"
 
-    player_id = db.Column(db.Integer,
-                        primary_key=True)
+    player_id = db.Column(db.Integer,primary_key=True)
     player_name = db.Column(db.String, nullable = False)
     team_id = db.Column(db.String, nullable = False)
     poked_score = db.Column(db.Integer)
+    player_image = db.Column(db.String)
 
     team = db.relationship("Team", backref="nbaplayers")
 
@@ -22,6 +23,7 @@ class NBAPlayer(db.Model):
     
 class Team(db.Model):
     """A single NBA team."""
+    """team_id,team_name,team_size"""
 
     __tablename__ = "teams"
 
@@ -34,6 +36,7 @@ class Team(db.Model):
     
 class User(db.Model):
     """A single user."""
+    """user_id,email,password"""
 
     __tablename__ = "users"
 
@@ -45,7 +48,8 @@ class User(db.Model):
         return f"<User user_id={self.user_id} email={self.email} password={self.password}>"
 
 class UserPlayer(db.Model):
-    """A User's Players."""
+    """A User's Players. (favorite player)"""
+    """user_player_id,player_id,user_id,player,user"""
 
     __tablename__ = "user_players"
 
