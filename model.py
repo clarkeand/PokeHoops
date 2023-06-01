@@ -4,10 +4,10 @@ from flask_sqlalchemy import SQLAlchemy
 
 db = SQLAlchemy()
 
-class Player(db.Model):
+class NBAPlayer(db.Model):
     """A single player."""
 
-    __tablename__ = "players"
+    __tablename__ = "nbaplayers"
 
     player_id = db.Column(db.Integer,
                         primary_key=True)
@@ -15,10 +15,10 @@ class Player(db.Model):
     team_id = db.Column(db.String, nullable = False)
     poked_score = db.Column(db.Integer)
 
-    team = db.relationship("Team", backref="players")
+    team = db.relationship("Team", backref="nbaplayers")
 
     def __repr__(self):
-        return f'<Player player_id={self.player_id} player_name={self.player_name} team_id={self.team_id} poked_score={self.poked_score}>'
+        return f'<NBAPlayer player_id={self.player_id} player_name={self.player_name} team_id={self.team_id} poked_score={self.poked_score}>'
     
 class Team(db.Model):
     """A single NBA team."""
@@ -53,8 +53,8 @@ class UserPlayer(db.Model):
     player_id = db.Column(db.Integer)
     user_id = user_id = db.Column(db.Integer)
 
-    player = db.relationship("Player", backref="users")
-    user = db.relationship("User", backref="players")
+    player = db.relationship("NBAPlayer", backref="users")
+    user = db.relationship("User", backref="nbaplayers")
 
     def __repr__(self):
         return f"<Rating rating_id={self.rating_id} score={self.score}>"
