@@ -18,6 +18,7 @@ team_dict = teams.get_teams()
 
 # Create Players
 for player in player_dict: 
+    #print(player)
     # Get player name/id from the common player dictionary. 
     player_id  = player_dict[player]['id']
     player_name = player_dict[player]['full_name']
@@ -33,11 +34,7 @@ for player in player_dict:
 
     #user crud create_a_player function to create a player to add to our DB. 
     player = crud.create_player(player_id,player_name,team_id,poked_score,player_image)
-    print(player)
     model.db.session.add(player)
 
 # Create Teams
-for team in team_dict: 
-
-
 model.db.session.commit()
