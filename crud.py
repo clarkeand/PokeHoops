@@ -11,12 +11,12 @@ from nba_api.stats.endpoints import commonplayerinfo, playerfantasyprofile
 # print(team_dict)
 #get dame's team info from player info since it isn't available in the regualar player endpoint in the api. 
 #alternatively I can pull everything straight from this dict. 
-# dame_id = dame[0]['id']
+# dame_id = dame[0]['id']O
 # player_info = commonplayerinfo.CommonPlayerInfo(f'{dame_id}')
 # player_info = player_info.get_normalized_dict()
 # player_info = player_info.get('CommonPlayerInfo')[0]
 # print(player_info)
-# team_id = player_info['TEAM_ABBREVIATION']
+# team_id = player_info['TEAM_ABBREVIATIN']
 # print(team_id)
 #found a fanatasy nba library I can use to build the poked score. 
 #There is a total season function or you can do a lastngames if 
@@ -36,9 +36,9 @@ def create_player(player_id,player_name,team_id,poked_score,player_image):
                 poked_score = poked_score,player_image=player_image)
     return player
 
-def create_team(team_id, team_name, team_size):
+def create_team(team_id, team_name):
     """Create and return a new team."""
-    team = Team(team_id = team_id, team_name = team_name, team_size = team_size)
+    team = Team(team_id = team_id, team_name = team_name)
     return team 
 
 # if __name__ == '__main__':

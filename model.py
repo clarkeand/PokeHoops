@@ -29,7 +29,6 @@ class Team(db.Model):
 
     team_id = db.Column(db.String, primary_key=True)
     team_name = db.Column(db.String)
-    team_size = db.Column(db.Integer)
 
     def __repr__(self):
         return f"<Team team_id={self.team_id} team_name={self.team_name} team_size={self.team_size}>"
@@ -75,6 +74,6 @@ def connect_to_db(flask_app, db_uri="postgresql:///ratings", echo=True):
 
 
 if __name__ == "__main__":
-    from server import app
+    from PokeHoops.server import app
 
     connect_to_db(app)

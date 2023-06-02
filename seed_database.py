@@ -8,20 +8,28 @@ import crud
 import model
 import server
 
-os.system("dropdb favorites")
-os.system('createdb favorites')
-model.connect_to_db(server.app)
-model.db.create_all()
+# os.system("dropdb favorites")
+# os.system('createdb favorites')
+# model.connect_to_db(server.app)
+# model.db.create_all()
 
 player_dict = players.get_active_players()
 team_dict = teams.get_teams()
 
+#Create Teams
+for team in team_dict: 
+    team_id = team['abbreviation']
+    team_name = team['full_name']
+    created_team = crud.create_team(team_id,team_name)
+    model.db.session.add(created_team)
+
+
 # Create Players
 for player in player_dict: 
-    #print(player)
+    print(player)
     # Get player name/id from the common player dictionary. 
-    player_id  = player_dict[player]['id']
-    player_name = player_dict[player]['full_name']
+    player_id  = player['id']
+    player_name = player['full_name']
     # We need complex dictionary to pull each players 3 digit team identifier. 
     player_info = commonplayerinfo.CommonPlayerInfo(f'{player_id}')
     player_info = player_info.get_normalized_dict()
@@ -33,8 +41,8 @@ for player in player_dict:
     player_image = "Null"
 
     #user crud create_a_player function to create a player to add to our DB. 
-    player = crud.create_player(player_id,player_name,team_id,poked_score,player_image)
-    model.db.session.add(player)
+    created_player = crud.create_player(player_id,player_name,team_id,poked_score,player_image)
+    model.db.session.add(created_player)
 
-# Create Teams
-model.db.session.commit()
+
+# model.db.session.commit()
