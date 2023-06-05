@@ -52,7 +52,7 @@ for player in player_dict:
     #user crud create_a_player function to create a player to add to our DB. 
     created_player = crud.create_player(player_id,player_name,team_id,player_position,poked_score,player_image)
     model.db.session.add(created_player)
-    time.sleep(.001) 
+    time.sleep(.5) 
 
 
 model.db.session.commit()
