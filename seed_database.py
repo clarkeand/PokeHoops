@@ -46,8 +46,8 @@ for player in player_dict:
     player_position = player_info['POSITION']
     # Set each POKED score to a value of 0 for now. 
     poked_score = 0
-    # Set each image to Null for now. 
-    player_image = "N/A"
+    # Pull each player image from the NBA site. 
+    player_image = f'https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/{player_id}.png'
 
     #user crud create_a_player function to create a player to add to our DB. 
     created_player = crud.create_player(player_id,player_name,team_id,player_position,poked_score,player_image)
