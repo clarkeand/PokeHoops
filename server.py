@@ -1,4 +1,4 @@
-"""Server for movie ratings app."""
+"""Server for Pokéhoops app."""
 
 from flask import (Flask, render_template, request, flash, session,
                    redirect)

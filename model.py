@@ -1,6 +1,7 @@
 """Models for the Pokéhoops app."""
 
 from flask_sqlalchemy import SQLAlchemy
+from sqlalchemy import ForeignKey
 
 db = SQLAlchemy()
 
@@ -12,7 +13,7 @@ class NBAPlayer(db.Model):
 
     player_id = db.Column(db.Integer,primary_key=True)
     player_name = db.Column(db.String, nullable = False)
-    team_id = db.Column(db.String, nullable = False)
+    team_id = db.Column(db.String, ForeignKey('teams.team_id'), nullable = False)
     poked_score = db.Column(db.Integer)
     player_image = db.Column(db.String)
 
@@ -23,7 +24,7 @@ class NBAPlayer(db.Model):
     
 class Team(db.Model):
     """A single NBA team."""
-    """team_id,team_name,team_size"""
+    """team_id,team_name"""
 
     __tablename__ = "teams"
 
@@ -31,7 +32,7 @@ class Team(db.Model):
     team_name = db.Column(db.String)
 
     def __repr__(self):
-        return f"<Team team_id={self.team_id} team_name={self.team_name} team_size={self.team_size}>"
+        return f"<Team team_id={self.team_id} team_name={self.team_name}>"
     
 class User(db.Model):
     """A single user."""
@@ -41,7 +42,7 @@ class User(db.Model):
 
     user_id = db.Column(db.Integer, autoincrement=True, primary_key=True)
     email = db.Column(db.String, nullable = False)
-    password = db.Column(db.Integer, nullable = False)
+    password = db.Column(db.String, nullable = False)
 
     def __repr__(self):
         return f"<User user_id={self.user_id} email={self.email} password={self.password}>"
@@ -53,16 +54,16 @@ class UserPlayer(db.Model):
     __tablename__ = "user_players"
 
     user_player_id = db.Column(db.Integer, autoincrement=True, primary_key=True)
-    player_id = db.Column(db.Integer)
-    user_id = user_id = db.Column(db.Integer)
+    player_id = db.Column(db.Integer, ForeignKey('nbaplayers.player_id'))
+    user_id = db.Column(db.Integer, ForeignKey('users.user_id'))
 
     player = db.relationship("NBAPlayer", backref="users")
     user = db.relationship("User", backref="nbaplayers")
 
     def __repr__(self):
-        return f"<Rating rating_id={self.rating_id} score={self.score}>"
+        return f"<UserPlayer user_player_id={self.user_player_id} player_id={self.player_id} user_id={self.user_id}>"
 
-def connect_to_db(flask_app, db_uri="postgresql:///ratings", echo=True):
+def connect_to_db(flask_app, db_uri="postgresql:///favorites", echo=True):
     flask_app.config["SQLALCHEMY_DATABASE_URI"] = db_uri
     flask_app.config["SQLALCHEMY_ECHO"] = echo
     flask_app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
