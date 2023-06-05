@@ -15,6 +15,26 @@ def homepage():
     """View homepage."""
     return render_template('homepage.html')
 
+@app.route('/login')
+def login_page():
+    """View login page with create a create an account option."""
+    return render_template('login.html')
+
+@app.route('/players')
+def all_players():
+    """View all players."""
+    return render_template('players.html')
+
+@app.route('/players/<player_id>')
+def player_page():
+    """View player's individual page."""
+    return render_template('homepage.html')
+
+@app.route('/user_landing')
+def player_page():
+    """View user landing page."""
+    return render_template('homepage.html')
+
 if __name__ == "__main__":
     connect_to_db(app)
     app.run(host="0.0.0.0", debug=True, port=3000)
