@@ -1,7 +1,7 @@
 from model import db, User, NBAPlayer, Team, UserPlayer, connect_to_db
-from nba_api.stats.static import players, teams
-from nba_api.stats.endpoints import playerindex, playerfantasyprofile
 
+# from nba_api.stats.static import players, teams
+from nba_api.stats.endpoints import commonplayerinfo
 # #import needed dictionaries
 # player_dict = players.get_active_players()
 # team_dict = teams.get_teams()
@@ -21,9 +21,9 @@ from nba_api.stats.endpoints import playerindex, playerfantasyprofile
 # #found a fanatasy nba library I can use to build the poked score. 
 # #There is a total season function or you can do a lastngames if 
 # #I want to have it fluctuate based on their last games. 
-# dame_fantasy_info = playerfantasyprofile.PlayerFantasyProfile(player_id=dame_id)
-# dame_fantasy_info = dame_fantasy_info.get_normalized_dict()
-# print(dame_fantasy_info['Overall'])
+dame_fantasy_info = commonplayerinfo.CommonPlayerInfo(player_id=1630641)
+dame_fantasy_info = dame_fantasy_info.player_headline_stats.get_dict()
+print(dame_fantasy_info['data'])
 
 def create_user(email, password):
     """Create and return a new user."""
