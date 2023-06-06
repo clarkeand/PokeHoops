@@ -7,7 +7,7 @@ db = SQLAlchemy()
 
 class NBAPlayer(db.Model):
     """A single player."""
-    """player_id,player_name,team_id,poked_score,player_image"""
+    """player_id,player_name,team_id,player_position,poked_score,player_image"""
 
     __tablename__ = "nbaplayers"
 

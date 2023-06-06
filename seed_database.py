@@ -2,7 +2,7 @@
 
 import os
 from nba_api.stats.static import players, teams
-from nba_api.stats.endpoints import commonplayerinfo, playerfantasyprofile
+from nba_api.stats.endpoints import commonplayerinfo
 import time
 
 import crud
