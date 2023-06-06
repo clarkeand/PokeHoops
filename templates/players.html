@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block body %}
+  <h1>All Players</h1>
+
+  <ul>
+    {% for player in players %}
+      <li>
+        <a href="/movies/{{ player.player_id }}">
+          {{ player.player_name }} {{player.team_id}} {{player.player_position}} {{player.poked_score}}
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+{% endblock %}

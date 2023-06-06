@@ -6,8 +6,8 @@ from sqlalchemy import ForeignKey
 db = SQLAlchemy()
 
 class NBAPlayer(db.Model):
-    """A single player."""
-    """player_id,player_name,team_id,player_position,poked_score,player_image"""
+    """A single player.
+    player_id,player_name,team_id,player_position,poked_score,player_image"""
 
     __tablename__ = "nbaplayers"
 
@@ -15,7 +15,7 @@ class NBAPlayer(db.Model):
     player_name = db.Column(db.String, nullable = False)
     team_id = db.Column(db.String, ForeignKey('teams.team_id'), nullable = False)
     player_position = db.Column(db.String, nullable = False)
-    poked_score = db.Column(db.Integer)
+    poked_score = db.Column(db.Float)
     player_image = db.Column(db.String)
 
     team = db.relationship("Team", backref="nbaplayers")
@@ -24,8 +24,8 @@ class NBAPlayer(db.Model):
         return f'<NBAPlayer player_id={self.player_id} player_name={self.player_name} team_id={self.team_id} player_position={self.player_position}poked_score={self.poked_score}>'
     
 class Team(db.Model):
-    """A single NBA team."""
-    """team_id,team_name"""
+    """A single NBA team.
+    team_id,team_name"""
 
     __tablename__ = "teams"
 
@@ -36,8 +36,8 @@ class Team(db.Model):
         return f"<Team team_id={self.team_id} team_name={self.team_name}>"
     
 class User(db.Model):
-    """A single user."""
-    """user_id,email,password"""
+    """A single user.
+    user_id,email,password"""
 
     __tablename__ = "users"
 
@@ -49,8 +49,8 @@ class User(db.Model):
         return f"<User user_id={self.user_id} email={self.email} password={self.password}>"
 
 class UserPlayer(db.Model):
-    """A User's Players. (favorite player)"""
-    """user_player_id,player_id,user_id,player,user"""
+    """A User's Players. (favorite player)
+    user_player_id,player_id,user_id,player,user"""
 
     __tablename__ = "user_players"
 

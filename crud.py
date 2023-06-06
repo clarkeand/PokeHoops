@@ -21,6 +21,11 @@ def create_user_player(player_id, user_id):
     user_player = UserPlayer(player_id = player_id, user_id = user_id)
     return user_player 
 
+def get_players():
+    """Return all players."""
+
+    return NBAPlayer.query.all()
+
 if __name__ == '__main__':
     from server import app
     connect_to_db(app)

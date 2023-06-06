@@ -17,13 +17,14 @@ def homepage():
 
 @app.route('/login')
 def login_page():
-    """View login page with create a create an account option."""
+    """View login page with a create an account option."""
     return render_template('login.html')
 
 @app.route('/players')
 def all_players():
     """View all players."""
-    return render_template('players.html')
+    players = crud.get_players()
+    return render_template('players.html',players=players)
 
 @app.route('/players/<player_id>')
 def player_page():
