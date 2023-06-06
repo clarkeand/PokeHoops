@@ -28,12 +28,12 @@ def all_players():
 @app.route('/players/<player_id>')
 def player_page():
     """View player's individual page."""
-    return render_template('homepage.html')
+    return render_template('playerid.html')
 
 @app.route('/user_landing')
-def player_page():
+def user_page():
     """View user landing page."""
-    return render_template('homepage.html')
+    return render_template('userid.html')
 
 if __name__ == "__main__":
     connect_to_db(app)

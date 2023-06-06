@@ -17,7 +17,7 @@ def create_team(team_id, team_name):
     return team 
 
 def create_user_player(player_id, user_id):
-    """Create and return a new team."""
+    """Create and return a new userPlayer."""
     user_player = UserPlayer(player_id = player_id, user_id = user_id)
     return user_player 
 
