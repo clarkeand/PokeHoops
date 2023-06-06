@@ -3,9 +3,8 @@
 {% block body %}
 <h1>{{ player.player_name }}</h1>
 <h3><a href="">Click here to favorite this player!</a></h3>
-<p>
-  <img src="{{player.player_image}}" alt="">
-</p>
+<h4><a href="/players">OR go back to all players.</a></h4>
+<p><img src="{{player.player_image}}" alt=""></p>
 <ul>Position: {{player.player_position}}</ul>
 <ul>Team: {{player.team_id}}</ul>
 <ul>PPG: {{player_stats[3]}} | APG: {{player_stats[4]}} | RPG: {{player_stats[5]}}</ul>
