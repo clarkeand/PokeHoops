@@ -23,8 +23,11 @@ def create_user_player(player_id, user_id):
 
 def get_players():
     """Return all players."""
-
     return NBAPlayer.query.all()
+
+def get_player_by_id(id):
+    """Return a player."""
+    return NBAPlayer.query.get(id)
 
 if __name__ == '__main__':
     from server import app

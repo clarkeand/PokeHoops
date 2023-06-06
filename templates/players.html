@@ -4,10 +4,13 @@
   <h1>All Players</h1>
 
   <ul>
+    <li>
+        <b>Player Name | Player Team | Player Position | P.O.K.E.D. (Power, Offense, Kinetics, Endurance, Defense) Score</b>
+    </li>    
     {% for player in players %}
       <li>
-        <a href="/movies/{{ player.player_id }}">
-          {{ player.player_name }} {{player.team_id}} {{player.player_position}} {{player.poked_score}}
+        <a href="/players/{{ player.player_id }}">
+          {{ player.player_name }} | {{player.team_id}} | {{player.player_position}} | {{player.poked_score}}
         </a>
       </li>
     {% endfor %}
