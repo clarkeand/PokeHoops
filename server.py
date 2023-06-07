@@ -16,10 +16,41 @@ def homepage():
     """View homepage."""
     return render_template('homepage.html')
 
+@app.route('/register', methods=["POST"])
+def register():
+    """Allow register."""
+    email = request.form.get("email")
+    password = request.form.get("password")
+
+    user = crud.get_user_by_email(email)
+    if user:
+        flash("Cannot create an account with that email. Try again.")
+    else:
+        user = crud.create_user(email, password)
+        db.session.add(user)
+        db.session.commit()
+        flash("Account created! Please log in.")
+    return render_template("login.html")
+
+@app.route('/login_user', methods=["POST"])
+def login_user():
+    """Allow a user to login."""
+    email = request.form.get("email")
+    password = request.form.get("password")
+
+    user = crud.get_user_by_email(email)
+    if not user or user.password != password:
+        flash("The email or password you entered was incorrect.")
+    else:
+        # Log in user by storing the user's email in session
+        session["user_email"] = user.email
+        flash(f"Welcome back, {user.email}!")
+    return redirect("/")
+
 @app.route('/login')
 def login_page():
-    """View login page with a create an account option."""
-    return render_template('login.html')
+     """Load login page """
+     return render_template("login.html")
 
 @app.route('/players')
 def all_players():
@@ -38,6 +69,12 @@ def player_page(player_id):
     else:
         player_stats = ['N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A']
     return render_template("playerid.html", player=player, player_stats=player_stats)
+
+@app.route('/teams')
+def all_teams():
+    """View all teams."""
+    players = crud.get_players()
+    return render_template('players.html',players=players)
 
 @app.route('/user_landing')
 def user_page():
