@@ -1,4 +1,5 @@
 from model import db, User, NBAPlayer, Team, UserPlayer, connect_to_db
+import json
 
 def create_user(email, password):
     """Create and return a new user."""
@@ -34,6 +35,28 @@ def get_user_by_email(email):
     user = User.query.filter(User.email == email).first()
     return user
 
+def get_players_json():
+    """Return all players as a JSON object."""
+    players = get_players()
+    player_data = []
+    for player in players:
+        player_data.append({
+            'player_id': player.player_id,
+            'player_name': player.player_name,
+            'team_id': player.team_id,
+            'player_position': player.player_position,
+            'poked_score': player.poked_score,
+            'player_image': player.player_image
+        })
+    return player_data
+
+def save_players_to_json():
+    """Save player data to a JSON file."""
+    players_data = get_players_json()
+    with open('players.json', 'w') as file:
+        json.dump(players_data, file, indent=4)
+
 if __name__ == '__main__':
     from server import app
     connect_to_db(app)
+    save_players_to_json()
