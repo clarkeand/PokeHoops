@@ -16,24 +16,35 @@ def homepage():
     """View homepage."""
     return render_template('homepage.html')
 
+@app.route('/players')
+def all_players():
+    """View all players."""
+    players = crud.get_players()
+    return render_template('players.html',players=players)
+
 @app.route('/register', methods=["POST"])
 def register():
-    """Allow register."""
+    """Allow a user to create an account."""
     email = request.form.get("email")
     password = request.form.get("password")
 
     user = crud.get_user_by_email(email)
-    if user:
-        flash("Cannot create an account with that email. Try again.")
-    else:
-        user = crud.create_user(email, password)
+    if not user: 
+        crud.create_user(email,password)
         db.session.add(user)
         db.session.commit()
         flash("Account created! Please log in.")
-    return render_template("login.html")
+    else: 
+        flash("Email already taken, please select a new email.")
+    return render_template('login.html')
 
-@app.route('/login_user', methods=["POST"])
-def login_user():
+@app.route('/login')
+def show_login_page():
+    """render login.html page"""
+    return render_template('login.html')
+
+@app.route('/login', methods=["POST"])
+def login():
     """Allow a user to login."""
     email = request.form.get("email")
     password = request.form.get("password")
@@ -41,22 +52,11 @@ def login_user():
     user = crud.get_user_by_email(email)
     if not user or user.password != password:
         flash("The email or password you entered was incorrect.")
+        return render_template("login.html")
     else:
-        # Log in user by storing the user's email in session
         session["user_email"] = user.email
         flash(f"Welcome back, {user.email}!")
-    return redirect("/")
-
-@app.route('/login')
-def login_page():
-     """Load login page """
-     return render_template("login.html")
-
-@app.route('/players')
-def all_players():
-    """View all players."""
-    players = crud.get_players()
-    return render_template('players.html',players=players)
+        return redirect("/")
 
 @app.route('/players/<player_id>')
 def player_page(player_id):
