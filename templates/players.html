@@ -2,11 +2,16 @@
 
 {% block body %}
   <h1>All Players</h1>
+  <h2><button id="sortTeam" class="btn btn-primary mt-2">Sort By Team</button></h2>
+  <h2><button id="sortPosition" class="btn btn-primary mt-2">Sort By Position</button></h2>
+  <h2><button id="sortPOKED" class="btn btn-primary mt-2">Sort By POKED</button></h2>
 
   <ul>
     <li>
         <b>Player Name | Player Team | Player Position | P.O.K.E.D. (Power, Offense, Kinetics, Endurance, Defense) Score</b>
-    </li>    
+    </li> 
+  </ul>
+  <div id="players_list">
     {% for player in players %}
       <li>
         <a href="/players/{{ player.player_id }}">
@@ -15,4 +20,5 @@
       </li>
     {% endfor %}
   </ul>
+</div>   
 {% endblock %}
