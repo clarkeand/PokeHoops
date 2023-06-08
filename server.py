@@ -11,6 +11,10 @@ app = Flask(__name__)
 app.secret_key = "dev"
 app.jinja_env.undefined = StrictUndefined
 
+NBA_PPG_MEAN = 10.8
+NBA_APG_MEAN = 2.36
+NBA_RPG_MEAN = 4.26
+
 @app.route('/')
 def homepage():
     """View homepage."""
@@ -68,7 +72,8 @@ def player_page(player_id):
         player_stats = player_stats['data'][0]
     else:
         player_stats = ['N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A']
-    return render_template("playerid.html", player=player, player_stats=player_stats)
+    league_averages = [NBA_PPG_MEAN, NBA_APG_MEAN, NBA_RPG_MEAN]
+    return render_template("playerid.html", player=player, player_stats=player_stats, league_averages=league_averages)
 
 @app.route('/teams')
 def all_teams():

@@ -1,5 +1,4 @@
 {% extends 'base.html' %}
-
 {% block body %}
 <h1>{{ player.player_name }}</h1>
 <h3><a href="">Click here to favorite this player!</a></h3>
@@ -10,4 +9,39 @@
 <ul>PPG: {{player_stats[3]}} | APG: {{player_stats[4]}} | RPG: {{player_stats[5]}}</ul>
 <ul>POKED Score: {{player.poked_score}}</ul>
 
+<div>
+    <canvas id="myChart"></canvas>
+  </div>
+  
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  
+  <script>
+    const player_stats = JSON.parse('{{ player_stats | tojson | safe }}');
+    const league_averages = JSON.parse('{{ league_averages | tojson | safe }}');
+    const ctx = document.getElementById('myChart');
+  
+    new Chart(ctx, {
+      type: 'line',
+      data: {
+        labels: ['PPG', 'APG', 'RPG'],
+        datasets: [{
+          label: 'Player Averages',
+          data: [player_stats[3],player_stats[4],player_stats[5]],
+          borderWidth: 1
+        },
+        {
+          label: 'League Averages',
+          data: [league_averages[0],league_averages[1],league_averages[2]],
+          borderWidth: 1
+        }]
+      },
+      options: {
+        scales: {
+          y: {
+            beginAtZero: true
+          }
+        }
+      }
+    });
+  </script>
 {% endblock %}
