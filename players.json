@@ -1,0 +1,4282 @@
+[
+    {
+        "player_id": 1630173,
+        "player_name": "Precious Achiuwa",
+        "team_id": "TOR",
+        "player_position": "Forward",
+        "poked_score": 0.06,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630173.png"
+    },
+    {
+        "player_id": 203500,
+        "player_name": "Steven Adams",
+        "team_id": "MEM",
+        "player_position": "Center",
+        "poked_score": 3.16,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/203500.png"
+    },
+    {
+        "player_id": 1628389,
+        "player_name": "Bam Adebayo",
+        "team_id": "MIA",
+        "player_position": "Center-Forward",
+        "poked_score": 4.67,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1628389.png"
+    },
+    {
+        "player_id": 1630534,
+        "player_name": "Ochai Agbaji",
+        "team_id": "UTA",
+        "player_position": "Guard",
+        "poked_score": -2.08,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630534.png"
+    },
+    {
+        "player_id": 1630583,
+        "player_name": "Santi Aldama",
+        "team_id": "MEM",
+        "player_position": "Forward-Center",
+        "poked_score": -0.44,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630583.png"
+    },
+    {
+        "player_id": 1629638,
+        "player_name": "Nickeil Alexander-Walker",
+        "team_id": "MIN",
+        "player_position": "Guard",
+        "poked_score": -2.39,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1629638.png"
+    },
+    {
+        "player_id": 1628960,
+        "player_name": "Grayson Allen",
+        "team_id": "MIL",
+        "player_position": "Guard",
+        "poked_score": -0.58,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1628960.png"
+    },
+    {
+        "player_id": 1628386,
+        "player_name": "Jarrett Allen",
+        "team_id": "CLE",
+        "player_position": "Center",
+        "poked_score": 3.25,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1628386.png"
+    },
+    {
+        "player_id": 1630631,
+        "player_name": "Jose Alvarado",
+        "team_id": "NOP",
+        "player_position": "Guard",
+        "poked_score": -1.13,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630631.png"
+    },
+    {
+        "player_id": 203937,
+        "player_name": "Kyle Anderson",
+        "team_id": "MIN",
+        "player_position": "Forward-Guard",
+        "poked_score": 1.09,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/203937.png"
+    },
+    {
+        "player_id": 203507,
+        "player_name": "Giannis Antetokounmpo",
+        "team_id": "MIL",
+        "player_position": "Forward",
+        "poked_score": 8.94,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/203507.png"
+    },
+    {
+        "player_id": 203648,
+        "player_name": "Thanasis Antetokounmpo",
+        "team_id": "MIL",
+        "player_position": "Forward",
+        "poked_score": -4.06,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/203648.png"
+    },
+    {
+        "player_id": 1630175,
+        "player_name": "Cole Anthony",
+        "team_id": "ORL",
+        "player_position": "Guard",
+        "poked_score": 1.22,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630175.png"
+    },
+    {
+        "player_id": 1628384,
+        "player_name": "O.G. Anunoby",
+        "team_id": "TOR",
+        "player_position": "Forward",
+        "poked_score": 1.45,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1628384.png"
+    },
+    {
+        "player_id": 1627853,
+        "player_name": "Ryan Arcidiacono",
+        "team_id": "F_A",
+        "player_position": "Guard",
+        "poked_score": -4.02,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1627853.png"
+    },
+    {
+        "player_id": 1630166,
+        "player_name": "Deni Avdija",
+        "team_id": "WAS",
+        "player_position": "Forward",
+        "poked_score": 0.9,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630166.png"
+    },
+    {
+        "player_id": 1629028,
+        "player_name": "Deandre Ayton",
+        "team_id": "PHX",
+        "player_position": "Center",
+        "poked_score": 4.09,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1629028.png"
+    },
+    {
+        "player_id": 1628962,
+        "player_name": "Udoka Azubuike",
+        "team_id": "UTA",
+        "player_position": "Center-Forward",
+        "poked_score": -2.63,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1628962.png"
+    },
+    {
+        "player_id": 1630641,
+        "player_name": "Ibou Badji",
+        "team_id": "POR",
+        "player_position": "Center",
+        "poked_score": -99.99,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630641.png"
+    },
+    {
+        "player_id": 1628963,
+        "player_name": "Marvin Bagley III",
+        "team_id": "DET",
+        "player_position": "Forward",
+        "poked_score": 0.82,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1628963.png"
+    },
+    {
+        "player_id": 1631116,
+        "player_name": "Patrick Baldwin Jr.",
+        "team_id": "GSW",
+        "player_position": "Forward",
+        "poked_score": -3.51,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1631116.png"
+    },
+    {
+        "player_id": 1630163,
+        "player_name": "LaMelo Ball",
+        "team_id": "CHA",
+        "player_position": "Guard",
+        "poked_score": 5.58,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630163.png"
+    },
+    {
+        "player_id": 1628366,
+        "player_name": "Lonzo Ball",
+        "team_id": "CHI",
+        "player_position": "Guard",
+        "poked_score": 1.92,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1628366.png"
+    },
+    {
+        "player_id": 1628964,
+        "player_name": "Mo Bamba",
+        "team_id": "LAL",
+        "player_position": "Center",
+        "poked_score": -1.16,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1628964.png"
+    },
+    {
+        "player_id": 1631094,
+        "player_name": "Paolo Banchero",
+        "team_id": "ORL",
+        "player_position": "Forward",
+        "poked_score": 3.61,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1631094.png"
+    },
+    {
+        "player_id": 1630217,
+        "player_name": "Desmond Bane",
+        "team_id": "MEM",
+        "player_position": "Guard",
+        "poked_score": 3.19,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630217.png"
+    },
+    {
+        "player_id": 1630625,
+        "player_name": "Dalano Banton",
+        "team_id": "TOR",
+        "player_position": "Forward",
+        "poked_score": -3.01,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630625.png"
+    },
+    {
+        "player_id": 1631230,
+        "player_name": "Dominick Barlow",
+        "team_id": "SAS",
+        "player_position": "Forward",
+        "poked_score": -2.2,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1631230.png"
+    },
+    {
+        "player_id": 203084,
+        "player_name": "Harrison Barnes",
+        "team_id": "SAC",
+        "player_position": "Forward",
+        "poked_score": 0.71,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/203084.png"
+    },
+    {
+        "player_id": 1630567,
+        "player_name": "Scottie Barnes",
+        "team_id": "TOR",
+        "player_position": "Forward",
+        "poked_score": 2.88,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630567.png"
+    },
+    {
+        "player_id": 1629628,
+        "player_name": "RJ Barrett",
+        "team_id": "NYK",
+        "player_position": "Forward-Guard",
+        "poked_score": 2.28,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1629628.png"
+    },
+    {
+        "player_id": 203115,
+        "player_name": "Will Barton",
+        "team_id": "TOR",
+        "player_position": "Guard",
+        "poked_score": -1.85,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/203115.png"
+    },
+    {
+        "player_id": 1629646,
+        "player_name": "Charles Bassey",
+        "team_id": "SAS",
+        "player_position": "Center-Forward",
+        "poked_score": -0.72,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1629646.png"
+    },
+    {
+        "player_id": 1628966,
+        "player_name": "Keita Bates-Diop",
+        "team_id": "SAS",
+        "player_position": "Forward",
+        "poked_score": -0.79,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1628966.png"
+    },
+    {
+        "player_id": 201587,
+        "player_name": "Nicolas Batum",
+        "team_id": "LAC",
+        "player_position": "Guard-Forward",
+        "poked_score": -1.42,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/201587.png"
+    },
+    {
+        "player_id": 1629647,
+        "player_name": "Darius Bazley",
+        "team_id": "PHX",
+        "player_position": "Forward",
+        "poked_score": -2.14,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1629647.png"
+    },
+    {
+        "player_id": 203078,
+        "player_name": "Bradley Beal",
+        "team_id": "WAS",
+        "player_position": "Guard",
+        "poked_score": 3.31,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/203078.png"
+    },
+    {
+        "player_id": 1627736,
+        "player_name": "Malik Beasley",
+        "team_id": "LAL",
+        "player_position": "Guard",
+        "poked_score": -0.29,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1627736.png"
+    },
+    {
+        "player_id": 1630699,
+        "player_name": "MarJon Beauchamp",
+        "team_id": "MIL",
+        "player_position": "Forward",
+        "poked_score": -2.72,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630699.png"
+    },
+    {
+        "player_id": 202722,
+        "player_name": "Davis Bertans",
+        "team_id": "DAL",
+        "player_position": "Forward",
+        "poked_score": -3.39,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/202722.png"
+    },
+    {
+        "player_id": 201976,
+        "player_name": "Patrick Beverley",
+        "team_id": "CHI",
+        "player_position": "Guard",
+        "poked_score": -1.02,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/201976.png"
+    },
+    {
+        "player_id": 1630180,
+        "player_name": "Saddiq Bey",
+        "team_id": "ATL",
+        "player_position": "Forward",
+        "poked_score": 0.53,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630180.png"
+    },
+    {
+        "player_id": 203920,
+        "player_name": "Khem Birch",
+        "team_id": "SAS",
+        "player_position": "Center",
+        "poked_score": -3.85,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/203920.png"
+    },
+    {
+        "player_id": 1629048,
+        "player_name": "Goga Bitadze",
+        "team_id": "ORL",
+        "player_position": "Center-Forward",
+        "poked_score": -2.06,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1629048.png"
+    },
+    {
+        "player_id": 202687,
+        "player_name": "Bismack Biyombo",
+        "team_id": "PHX",
+        "player_position": "Center",
+        "poked_score": -1.77,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/202687.png"
+    },
+    {
+        "player_id": 1631205,
+        "player_name": "Buddy Boeheim",
+        "team_id": "DET",
+        "player_position": "Forward",
+        "poked_score": -4.32,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1631205.png"
+    },
+    {
+        "player_id": 203992,
+        "player_name": "Bogdan Bogdanovic",
+        "team_id": "ATL",
+        "player_position": "Guard",
+        "poked_score": 0.21,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/203992.png"
+    },
+    {
+        "player_id": 202711,
+        "player_name": "Bojan Bogdanovic",
+        "team_id": "DET",
+        "player_position": "Forward",
+        "poked_score": 2.01,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/202711.png"
+    },
+    {
+        "player_id": 1629626,
+        "player_name": "Bol Bol",
+        "team_id": "ORL",
+        "player_position": "Center-Forward",
+        "poked_score": -0.02,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1629626.png"
+    },
+    {
+        "player_id": 1630195,
+        "player_name": "Leandro Bolmaro",
+        "team_id": "F_A",
+        "player_position": "Forward",
+        "poked_score": -4.58,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630195.png"
+    },
+    {
+        "player_id": 1626164,
+        "player_name": "Devin Booker",
+        "team_id": "PHX",
+        "player_position": "Guard",
+        "poked_score": 4.57,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1626164.png"
+    },
+    {
+        "player_id": 1630527,
+        "player_name": "Brandon Boston Jr.",
+        "team_id": "LAC",
+        "player_position": "Guard",
+        "poked_score": -2.78,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630527.png"
+    },
+    {
+        "player_id": 1628449,
+        "player_name": "Chris Boucher",
+        "team_id": "TOR",
+        "player_position": "Forward-Center",
+        "poked_score": -0.31,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1628449.png"
+    },
+    {
+        "player_id": 1630547,
+        "player_name": "James Bouknight",
+        "team_id": "CHA",
+        "player_position": "Guard",
+        "poked_score": -2.51,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630547.png"
+    },
+    {
+        "player_id": 1631123,
+        "player_name": "Jamaree Bouyea",
+        "team_id": "F_A",
+        "player_position": "Guard",
+        "poked_score": -3.61,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1631123.png"
+    },
+    {
+        "player_id": 1628396,
+        "player_name": "Tony Bradley",
+        "team_id": "F_A",
+        "player_position": "Center-Forward",
+        "poked_score": -4.27,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1628396.png"
+    },
+    {
+        "player_id": 1631103,
+        "player_name": "Malaki Branham",
+        "team_id": "SAS",
+        "player_position": "Forward",
+        "poked_score": -1.05,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1631103.png"
+    },
+    {
+        "player_id": 1629714,
+        "player_name": "Jarrell Brantley",
+        "team_id": "F_A",
+        "player_position": "Forward",
+        "poked_score": -2.96,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1629714.png"
+    },
+    {
+        "player_id": 1631128,
+        "player_name": "Christian Braun",
+        "team_id": "DEN",
+        "player_position": "Guard",
+        "poked_score": -2.67,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1631128.png"
+    },
+    {
+        "player_id": 1628969,
+        "player_name": "Mikal Bridges",
+        "team_id": "BKN",
+        "player_position": "Guard-Forward",
+        "poked_score": 2.24,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1628969.png"
+    },
+    {
+        "player_id": 1629052,
+        "player_name": "Oshae Brissett",
+        "team_id": "IND",
+        "player_position": "Forward-Guard",
+        "poked_score": -1.92,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1629052.png"
+    },
+    {
+        "player_id": 1627763,
+        "player_name": "Malcolm Brogdon",
+        "team_id": "BOS",
+        "player_position": "Guard",
+        "poked_score": 1.24,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1627763.png"
+    },
+    {
+        "player_id": 1628415,
+        "player_name": "Dillon Brooks",
+        "team_id": "MEM",
+        "player_position": "Guard-Forward",
+        "poked_score": 0.3,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1628415.png"
+    },
+    {
+        "player_id": 1628971,
+        "player_name": "Bruce Brown",
+        "team_id": "DEN",
+        "player_position": "Guard-Forward",
+        "poked_score": 0.41,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1628971.png"
+    },
+    {
+        "player_id": 1627759,
+        "player_name": "Jaylen Brown",
+        "team_id": "BOS",
+        "player_position": "Guard-Forward",
+        "poked_score": 4.86,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1627759.png"
+    },
+    {
+        "player_id": 1631112,
+        "player_name": "Kendall Brown",
+        "team_id": "IND",
+        "player_position": "Guard",
+        "poked_score": -4.11,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1631112.png"
+    },
+    {
+        "player_id": 1629650,
+        "player_name": "Moses Brown",
+        "team_id": "F_A",
+        "player_position": "Center",
+        "poked_score": -2.23,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1629650.png"
+    },
+    {
+        "player_id": 1628425,
+        "player_name": "Sterling Brown",
+        "team_id": "F_A",
+        "player_position": "Guard-Forward",
+        "poked_score": -3.91,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1628425.png"
+    },
+    {
+        "player_id": 1630535,
+        "player_name": "Greg Brown III",
+        "team_id": "F_A",
+        "player_position": "Forward",
+        "poked_score": -4.05,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630535.png"
+    },
+    {
+        "player_id": 1628972,
+        "player_name": "Troy Brown Jr.",
+        "team_id": "LAL",
+        "player_position": "Guard-Forward",
+        "poked_score": -1.17,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1628972.png"
+    },
+    {
+        "player_id": 1628973,
+        "player_name": "Jalen Brunson",
+        "team_id": "NYK",
+        "player_position": "Guard",
+        "poked_score": 3.54,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1628973.png"
+    },
+    {
+        "player_id": 1628418,
+        "player_name": "Thomas Bryant",
+        "team_id": "DEN",
+        "player_position": "Center-Forward",
+        "poked_score": -0.1,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1628418.png"
+    },
+    {
+        "player_id": 203493,
+        "player_name": "Reggie Bullock",
+        "team_id": "DAL",
+        "player_position": "Guard-Forward",
+        "poked_score": -1.37,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/203493.png"
+    },
+    {
+        "player_id": 202692,
+        "player_name": "Alec Burks",
+        "team_id": "DET",
+        "player_position": "Guard",
+        "poked_score": -0.23,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/202692.png"
+    },
+    {
+        "player_id": 1629126,
+        "player_name": "Deonte Burton",
+        "team_id": "F_A",
+        "player_position": "Guard-Forward",
+        "poked_score": -5.08,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1629126.png"
+    },
+    {
+        "player_id": 1630215,
+        "player_name": "Jared Butler",
+        "team_id": "OKC",
+        "player_position": "Guard",
+        "poked_score": -3.05,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630215.png"
+    },
+    {
+        "player_id": 202710,
+        "player_name": "Jimmy Butler",
+        "team_id": "MIA",
+        "player_position": "Forward",
+        "poked_score": 4.22,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/202710.png"
+    },
+    {
+        "player_id": 1631219,
+        "player_name": "John Butler Jr.",
+        "team_id": "POR",
+        "player_position": "Forward",
+        "poked_score": -3.95,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1631219.png"
+    },
+    {
+        "player_id": 1631288,
+        "player_name": "Jamal Cain",
+        "team_id": "MIA",
+        "player_position": "Forward",
+        "poked_score": -2.31,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1631288.png"
+    },
+    {
+        "player_id": 203484,
+        "player_name": "Kentavious Caldwell-Pope",
+        "team_id": "DEN",
+        "player_position": "Guard",
+        "poked_score": -0.77,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/203484.png"
+    },
+    {
+        "player_id": 1630267,
+        "player_name": "Facundo Campazzo",
+        "team_id": "F_A",
+        "player_position": "Guard",
+        "poked_score": -4.3,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630267.png"
+    },
+    {
+        "player_id": 1628427,
+        "player_name": "Vlatko Cancar",
+        "team_id": "DEN",
+        "player_position": "Forward",
+        "poked_score": -2.59,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1628427.png"
+    },
+    {
+        "player_id": 203991,
+        "player_name": "Clint Capela",
+        "team_id": "ATL",
+        "player_position": "Center",
+        "poked_score": 3.12,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/203991.png"
+    },
+    {
+        "player_id": 1630176,
+        "player_name": "Vernon Carey Jr.",
+        "team_id": "UTA",
+        "player_position": "Center",
+        "poked_score": -4.38,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630176.png"
+    },
+    {
+        "player_id": 1628975,
+        "player_name": "Jevon Carter",
+        "team_id": "MIL",
+        "player_position": "Guard",
+        "poked_score": -1.43,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1628975.png"
+    },
+    {
+        "player_id": 1628976,
+        "player_name": "Wendell Carter Jr.",
+        "team_id": "ORL",
+        "player_position": "Center-Forward",
+        "poked_score": 3.08,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1628976.png"
+    },
+    {
+        "player_id": 203487,
+        "player_name": "Michael Carter-Williams",
+        "team_id": "ORL",
+        "player_position": "Guard",
+        "poked_score": -2.97,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/203487.png"
+    },
+    {
+        "player_id": 1627936,
+        "player_name": "Alex Caruso",
+        "team_id": "CHI",
+        "player_position": "Guard",
+        "poked_score": -1.54,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1627936.png"
+    },
+    {
+        "player_id": 1630577,
+        "player_name": "Julian Champagnie",
+        "team_id": "SAS",
+        "player_position": "Forward",
+        "poked_score": -1.19,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630577.png"
+    },
+    {
+        "player_id": 1630551,
+        "player_name": "Justin Champagnie",
+        "team_id": "BOS",
+        "player_position": "Guard-Forward",
+        "poked_score": -3.57,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630551.png"
+    },
+    {
+        "player_id": 1631113,
+        "player_name": "Kennedy Chandler",
+        "team_id": "F_A",
+        "player_position": "Guard",
+        "poked_score": -3.55,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1631113.png"
+    },
+    {
+        "player_id": 1631108,
+        "player_name": "Max Christie",
+        "team_id": "LAL",
+        "player_position": "Guard",
+        "poked_score": -3.39,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1631108.png"
+    },
+    {
+        "player_id": 1630528,
+        "player_name": "Josh Christopher",
+        "team_id": "HOU",
+        "player_position": "Guard",
+        "poked_score": -3.0,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630528.png"
+    },
+    {
+        "player_id": 1629634,
+        "player_name": "Brandon Clarke",
+        "team_id": "MEM",
+        "player_position": "Forward",
+        "poked_score": 0.11,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1629634.png"
+    },
+    {
+        "player_id": 203903,
+        "player_name": "Jordan Clarkson",
+        "team_id": "UTA",
+        "player_position": "Guard",
+        "poked_score": 2.55,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/203903.png"
+    },
+    {
+        "player_id": 1629651,
+        "player_name": "Nic Claxton",
+        "team_id": "BKN",
+        "player_position": "Center",
+        "poked_score": 2.68,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1629651.png"
+    },
+    {
+        "player_id": 1629599,
+        "player_name": "Amir Coffey",
+        "team_id": "LAC",
+        "player_position": "Guard-Forward",
+        "poked_score": -3.48,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1629599.png"
+    },
+    {
+        "player_id": 1628381,
+        "player_name": "John Collins",
+        "team_id": "ATL",
+        "player_position": "Forward-Center",
+        "poked_score": 1.19,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1628381.png"
+    },
+    {
+        "player_id": 1628380,
+        "player_name": "Zach Collins",
+        "team_id": "SAS",
+        "player_position": "Forward-Center",
+        "poked_score": 1.41,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1628380.png"
+    },
+    {
+        "player_id": 201144,
+        "player_name": "Mike Conley",
+        "team_id": "MIN",
+        "player_position": "Guard",
+        "poked_score": 0.89,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/201144.png"
+    },
+    {
+        "player_id": 1626192,
+        "player_name": "Pat Connaughton",
+        "team_id": "MIL",
+        "player_position": "Guard",
+        "poked_score": -0.82,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1626192.png"
+    },
+    {
+        "player_id": 1641645,
+        "player_name": "Xavier Cooks",
+        "team_id": "WAS",
+        "player_position": "Forward",
+        "poked_score": -2.22,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1641645.png"
+    },
+    {
+        "player_id": 203496,
+        "player_name": "Robert Covington",
+        "team_id": "LAC",
+        "player_position": "Forward",
+        "poked_score": -1.73,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/203496.png"
+    },
+    {
+        "player_id": 1628470,
+        "player_name": "Torrey Craig",
+        "team_id": "PHX",
+        "player_position": "Forward",
+        "poked_score": -0.4,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1628470.png"
+    },
+    {
+        "player_id": 203109,
+        "player_name": "Jae Crowder",
+        "team_id": "MIL",
+        "player_position": "Forward",
+        "poked_score": -1.3,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/203109.png"
+    },
+    {
+        "player_id": 1629633,
+        "player_name": "Jarrett Culver",
+        "team_id": "F_A",
+        "player_position": "Guard-Forward",
+        "poked_score": -2.1,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1629633.png"
+    },
+    {
+        "player_id": 1630595,
+        "player_name": "Cade Cunningham",
+        "team_id": "DET",
+        "player_position": "Guard",
+        "poked_score": 4.0,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630595.png"
+    },
+    {
+        "player_id": 203552,
+        "player_name": "Seth Curry",
+        "team_id": "BKN",
+        "player_position": "Guard",
+        "poked_score": -1.9,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/203552.png"
+    },
+    {
+        "player_id": 201939,
+        "player_name": "Stephen Curry",
+        "team_id": "GSW",
+        "player_position": "Guard",
+        "poked_score": 5.95,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/201939.png"
+    },
+    {
+        "player_id": 1630700,
+        "player_name": "Dyson Daniels",
+        "team_id": "NOP",
+        "player_position": "Guard",
+        "poked_score": -1.95,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630700.png"
+    },
+    {
+        "player_id": 203076,
+        "player_name": "Anthony Davis",
+        "team_id": "LAL",
+        "player_position": "Forward-Center",
+        "poked_score": 7.22,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/203076.png"
+    },
+    {
+        "player_id": 1631098,
+        "player_name": "Johnny Davis",
+        "team_id": "WAS",
+        "player_position": "Guard",
+        "poked_score": -2.43,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1631098.png"
+    },
+    {
+        "player_id": 1629056,
+        "player_name": "Terence Davis",
+        "team_id": "SAC",
+        "player_position": "Guard",
+        "poked_score": -2.3,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1629056.png"
+    },
+    {
+        "player_id": 1631120,
+        "player_name": "JD Davison",
+        "team_id": "BOS",
+        "player_position": "Guard",
+        "poked_score": -4.06,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1631120.png"
+    },
+    {
+        "player_id": 1630620,
+        "player_name": "Darius Days",
+        "team_id": "HOU",
+        "player_position": "Forward",
+        "poked_score": -3.47,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630620.png"
+    },
+    {
+        "player_id": 201942,
+        "player_name": "DeMar DeRozan",
+        "team_id": "CHI",
+        "player_position": "Guard-Forward",
+        "poked_score": 3.82,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/201942.png"
+    },
+    {
+        "player_id": 203473,
+        "player_name": "Dewayne Dedmon",
+        "team_id": "PHI",
+        "player_position": "Center",
+        "poked_score": -2.05,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/203473.png"
+    },
+    {
+        "player_id": 203521,
+        "player_name": "Matthew Dellavedova",
+        "team_id": "SAC",
+        "player_position": "Guard",
+        "poked_score": -4.14,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/203521.png"
+    },
+    {
+        "player_id": 1628978,
+        "player_name": "Donte DiVincenzo",
+        "team_id": "GSW",
+        "player_position": "Guard",
+        "poked_score": 0.22,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1628978.png"
+    },
+    {
+        "player_id": 1631217,
+        "player_name": "Moussa Diabate",
+        "team_id": "LAC",
+        "player_position": "Forward",
+        "poked_score": -3.32,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1631217.png"
+    },
+    {
+        "player_id": 1629603,
+        "player_name": "Mamadi Diakite",
+        "team_id": "CLE",
+        "player_position": "Forward",
+        "poked_score": -3.72,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1629603.png"
+    },
+    {
+        "player_id": 1628977,
+        "player_name": "Hamidou Diallo",
+        "team_id": "DET",
+        "player_position": "Guard",
+        "poked_score": -1.13,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1628977.png"
+    },
+    {
+        "player_id": 203476,
+        "player_name": "Gorgui Dieng",
+        "team_id": "SAS",
+        "player_position": "Center",
+        "poked_score": -1.98,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/203476.png"
+    },
+    {
+        "player_id": 1631172,
+        "player_name": "Ousmane Dieng",
+        "team_id": "OKC",
+        "player_position": "Forward",
+        "poked_score": -2.35,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1631172.png"
+    },
+    {
+        "player_id": 203915,
+        "player_name": "Spencer Dinwiddie",
+        "team_id": "BKN",
+        "player_position": "Guard",
+        "poked_score": 2.25,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/203915.png"
+    },
+    {
+        "player_id": 1629029,
+        "player_name": "Luka Doncic",
+        "team_id": "DAL",
+        "player_position": "Forward-Guard",
+        "poked_score": 8.37,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1629029.png"
+    },
+    {
+        "player_id": 1628416,
+        "player_name": "Tyler Dorsey",
+        "team_id": "F_A",
+        "player_position": "Guard",
+        "poked_score": -4.13,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1628416.png"
+    },
+    {
+        "player_id": 1629652,
+        "player_name": "Luguentz Dort",
+        "team_id": "OKC",
+        "player_position": "Guard",
+        "poked_score": 0.66,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1629652.png"
+    },
+    {
+        "player_id": 1630245,
+        "player_name": "Ayo Dosunmu",
+        "team_id": "CHI",
+        "player_position": "Guard",
+        "poked_score": -1.09,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630245.png"
+    },
+    {
+        "player_id": 1629653,
+        "player_name": "Devon Dotson",
+        "team_id": "F_A",
+        "player_position": "Guard",
+        "poked_score": -3.69,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1629653.png"
+    },
+    {
+        "player_id": 1630288,
+        "player_name": "Jeff Dowtin Jr.",
+        "team_id": "TOR",
+        "player_position": "Guard",
+        "poked_score": -3.75,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630288.png"
+    },
+    {
+        "player_id": 1628408,
+        "player_name": "PJ Dozier",
+        "team_id": "SAC",
+        "player_position": "Guard-Forward",
+        "poked_score": -4.15,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1628408.png"
+    },
+    {
+        "player_id": 201609,
+        "player_name": "Goran Dragic",
+        "team_id": "MIL",
+        "player_position": "Guard",
+        "poked_score": -2.25,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/201609.png"
+    },
+    {
+        "player_id": 203083,
+        "player_name": "Andre Drummond",
+        "team_id": "CHI",
+        "player_position": "Center",
+        "poked_score": -0.41,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/203083.png"
+    },
+    {
+        "player_id": 1630537,
+        "player_name": "Chris Duarte",
+        "team_id": "IND",
+        "player_position": "Guard",
+        "poked_score": -1.78,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630537.png"
+    },
+    {
+        "player_id": 1630561,
+        "player_name": "David Duke Jr.",
+        "team_id": "BKN",
+        "player_position": "Guard",
+        "poked_score": -3.39,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630561.png"
+    },
+    {
+        "player_id": 1627739,
+        "player_name": "Kris Dunn",
+        "team_id": "UTA",
+        "player_position": "Guard",
+        "poked_score": 1.68,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1627739.png"
+    },
+    {
+        "player_id": 201142,
+        "player_name": "Kevin Durant",
+        "team_id": "PHX",
+        "player_position": "Forward",
+        "poked_score": 5.76,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/201142.png"
+    },
+    {
+        "player_id": 1631105,
+        "player_name": "Jalen Duren",
+        "team_id": "DET",
+        "player_position": "Center",
+        "poked_score": 1.56,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1631105.png"
+    },
+    {
+        "player_id": 1631106,
+        "player_name": "Tari Eason",
+        "team_id": "HOU",
+        "player_position": "Forward",
+        "poked_score": 0.15,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1631106.png"
+    },
+    {
+        "player_id": 1630162,
+        "player_name": "Anthony Edwards",
+        "team_id": "MIN",
+        "player_position": "Guard",
+        "poked_score": 4.21,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630162.png"
+    },
+    {
+        "player_id": 1630556,
+        "player_name": "Kessler Edwards",
+        "team_id": "SAC",
+        "player_position": "Forward",
+        "poked_score": -3.47,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630556.png"
+    },
+    {
+        "player_id": 1631165,
+        "player_name": "Keon Ellis",
+        "team_id": "SAC",
+        "player_position": "Guard",
+        "poked_score": -4.39,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1631165.png"
+    },
+    {
+        "player_id": 203954,
+        "player_name": "Joel Embiid",
+        "team_id": "PHI",
+        "player_position": "Center-Forward",
+        "poked_score": 8.04,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/203954.png"
+    },
+    {
+        "player_id": 1629234,
+        "player_name": "Drew Eubanks",
+        "team_id": "POR",
+        "player_position": "Forward-Center",
+        "poked_score": -0.62,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1629234.png"
+    },
+    {
+        "player_id": 1628981,
+        "player_name": "Bruno Fernando",
+        "team_id": "ATL",
+        "player_position": "Forward-Center",
+        "poked_score": -2.28,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1628981.png"
+    },
+    {
+        "player_id": 1627827,
+        "player_name": "Dorian Finney-Smith",
+        "team_id": "BKN",
+        "player_position": "Forward",
+        "poked_score": -0.52,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1627827.png"
+    },
+    {
+        "player_id": 1630201,
+        "player_name": "Malachi Flynn",
+        "team_id": "TOR",
+        "player_position": "Guard",
+        "poked_score": -3.02,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630201.png"
+    },
+    {
+        "player_id": 1631323,
+        "player_name": "Simone Fontecchio",
+        "team_id": "UTA",
+        "player_position": "Forward",
+        "poked_score": -2.7,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1631323.png"
+    },
+    {
+        "player_id": 1627854,
+        "player_name": "Bryn Forbes",
+        "team_id": "F_A",
+        "player_position": "Guard",
+        "poked_score": -3.82,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1627854.png"
+    },
+    {
+        "player_id": 1630235,
+        "player_name": "Trent Forrest",
+        "team_id": "ATL",
+        "player_position": "Guard",
+        "poked_score": -3.25,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630235.png"
+    },
+    {
+        "player_id": 1630701,
+        "player_name": "Michael Foster Jr.",
+        "team_id": "F_A",
+        "player_position": "Forward",
+        "poked_score": -5.08,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630701.png"
+    },
+    {
+        "player_id": 203095,
+        "player_name": "Evan Fournier",
+        "team_id": "NYK",
+        "player_position": "Guard-Forward",
+        "poked_score": -2.52,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/203095.png"
+    },
+    {
+        "player_id": 1628368,
+        "player_name": "De'Aaron Fox",
+        "team_id": "SAC",
+        "player_position": "Guard",
+        "poked_score": 4.06,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1628368.png"
+    },
+    {
+        "player_id": 1628365,
+        "player_name": "Markelle Fultz",
+        "team_id": "ORL",
+        "player_position": "Guard",
+        "poked_score": 1.57,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1628365.png"
+    },
+    {
+        "player_id": 1629117,
+        "player_name": "Wenyen Gabriel",
+        "team_id": "LAL",
+        "player_position": "Forward",
+        "poked_score": -1.71,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1629117.png"
+    },
+    {
+        "player_id": 1629655,
+        "player_name": "Daniel Gafford",
+        "team_id": "WAS",
+        "player_position": "Forward-Center",
+        "poked_score": -0.11,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1629655.png"
+    },
+    {
+        "player_id": 201568,
+        "player_name": "Danilo Gallinari",
+        "team_id": "BOS",
+        "player_position": "Forward",
+        "poked_score": 0.11,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/201568.png"
+    },
+    {
+        "player_id": 1629636,
+        "player_name": "Darius Garland",
+        "team_id": "CLE",
+        "player_position": "Guard",
+        "poked_score": 3.19,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1629636.png"
+    },
+    {
+        "player_id": 1630586,
+        "player_name": "Usman Garuba",
+        "team_id": "HOU",
+        "player_position": "Forward",
+        "poked_score": -2.13,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630586.png"
+    },
+    {
+        "player_id": 1630568,
+        "player_name": "Luka Garza",
+        "team_id": "MIN",
+        "player_position": "Center",
+        "poked_score": -2.43,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630568.png"
+    },
+    {
+        "player_id": 200752,
+        "player_name": "Rudy Gay",
+        "team_id": "UTA",
+        "player_position": "Forward-Guard",
+        "poked_score": -2.25,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/200752.png"
+    },
+    {
+        "player_id": 202331,
+        "player_name": "Paul George",
+        "team_id": "LAC",
+        "player_position": "Forward",
+        "poked_score": 4.43,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/202331.png"
+    },
+    {
+        "player_id": 201959,
+        "player_name": "Taj Gibson",
+        "team_id": "WAS",
+        "player_position": "Forward",
+        "poked_score": -3.21,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/201959.png"
+    },
+    {
+        "player_id": 1630581,
+        "player_name": "Josh Giddey",
+        "team_id": "OKC",
+        "player_position": "Guard",
+        "poked_score": 4.26,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630581.png"
+    },
+    {
+        "player_id": 1628983,
+        "player_name": "Shai Gilgeous-Alexander",
+        "team_id": "OKC",
+        "player_position": "Guard",
+        "poked_score": 5.44,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1628983.png"
+    },
+    {
+        "player_id": 1630264,
+        "player_name": "Anthony Gill",
+        "team_id": "WAS",
+        "player_position": "Forward",
+        "poked_score": -3.37,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630264.png"
+    },
+    {
+        "player_id": 1631221,
+        "player_name": "Collin Gillespie",
+        "team_id": "DEN",
+        "player_position": "Guard",
+        "poked_score": -99.99,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1631221.png"
+    },
+    {
+        "player_id": 203497,
+        "player_name": "Rudy Gobert",
+        "team_id": "MIN",
+        "player_position": "Center",
+        "poked_score": 3.8,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/203497.png"
+    },
+    {
+        "player_id": 1630692,
+        "player_name": "Jordan Goodwin",
+        "team_id": "WAS",
+        "player_position": "Guard",
+        "poked_score": -1.21,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630692.png"
+    },
+    {
+        "player_id": 203932,
+        "player_name": "Aaron Gordon",
+        "team_id": "DEN",
+        "player_position": "Forward",
+        "poked_score": 2.48,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/203932.png"
+    },
+    {
+        "player_id": 201569,
+        "player_name": "Eric Gordon",
+        "team_id": "LAC",
+        "player_position": "Guard",
+        "poked_score": -0.75,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/201569.png"
+    },
+    {
+        "player_id": 1628984,
+        "player_name": "Devonte' Graham",
+        "team_id": "SAS",
+        "player_position": "Guard",
+        "poked_score": -1.85,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1628984.png"
+    },
+    {
+        "player_id": 203924,
+        "player_name": "Jerami Grant",
+        "team_id": "POR",
+        "player_position": "Forward",
+        "poked_score": 2.07,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/203924.png"
+    },
+    {
+        "player_id": 1631260,
+        "player_name": "AJ Green",
+        "team_id": "MIL",
+        "player_position": "Guard",
+        "poked_score": -3.35,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1631260.png"
+    },
+    {
+        "player_id": 201980,
+        "player_name": "Danny Green",
+        "team_id": "CLE",
+        "player_position": "Guard",
+        "poked_score": -3.16,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/201980.png"
+    },
+    {
+        "player_id": 203110,
+        "player_name": "Draymond Green",
+        "team_id": "GSW",
+        "player_position": "Forward",
+        "poked_score": 2.49,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/203110.png"
+    },
+    {
+        "player_id": 203210,
+        "player_name": "JaMychal Green",
+        "team_id": "GSW",
+        "player_position": "Forward-Center",
+        "poked_score": -1.7,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/203210.png"
+    },
+    {
+        "player_id": 1630224,
+        "player_name": "Jalen Green",
+        "team_id": "HOU",
+        "player_position": "Guard",
+        "poked_score": 2.43,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630224.png"
+    },
+    {
+        "player_id": 1629750,
+        "player_name": "Javonte Green",
+        "team_id": "CHI",
+        "player_position": "Guard",
+        "poked_score": -2.4,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1629750.png"
+    },
+    {
+        "player_id": 201145,
+        "player_name": "Jeff Green",
+        "team_id": "DEN",
+        "player_position": "Forward",
+        "poked_score": -1.82,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/201145.png"
+    },
+    {
+        "player_id": 1630182,
+        "player_name": "Josh Green",
+        "team_id": "DAL",
+        "player_position": "Guard",
+        "poked_score": -1.19,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630182.png"
+    },
+    {
+        "player_id": 1631100,
+        "player_name": "AJ Griffin",
+        "team_id": "ATL",
+        "player_position": "Forward",
+        "poked_score": -1.91,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1631100.png"
+    },
+    {
+        "player_id": 201933,
+        "player_name": "Blake Griffin",
+        "team_id": "BOS",
+        "player_position": "Forward",
+        "poked_score": -1.86,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/201933.png"
+    },
+    {
+        "player_id": 1629656,
+        "player_name": "Quentin Grimes",
+        "team_id": "NYK",
+        "player_position": "Guard",
+        "poked_score": -0.52,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1629656.png"
+    },
+    {
+        "player_id": 1629060,
+        "player_name": "Rui Hachimura",
+        "team_id": "LAL",
+        "player_position": "Forward",
+        "poked_score": -0.29,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1629060.png"
+    },
+    {
+        "player_id": 1630169,
+        "player_name": "Tyrese Haliburton",
+        "team_id": "IND",
+        "player_position": "Guard",
+        "poked_score": 4.38,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630169.png"
+    },
+    {
+        "player_id": 1631160,
+        "player_name": "Jordan Hall",
+        "team_id": "F_A",
+        "player_position": "Guard",
+        "poked_score": -3.41,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1631160.png"
+    },
+    {
+        "player_id": 1630181,
+        "player_name": "R.J. Hampton",
+        "team_id": "DET",
+        "player_position": "Guard",
+        "poked_score": -2.48,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630181.png"
+    },
+    {
+        "player_id": 203501,
+        "player_name": "Tim Hardaway Jr.",
+        "team_id": "DAL",
+        "player_position": "Guard-Forward",
+        "poked_score": 0.15,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/203501.png"
+    },
+    {
+        "player_id": 201935,
+        "player_name": "James Harden",
+        "team_id": "PHI",
+        "player_position": "Guard",
+        "poked_score": 5.74,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/201935.png"
+    },
+    {
+        "player_id": 1630702,
+        "player_name": "Jaden Hardy",
+        "team_id": "DAL",
+        "player_position": "Guard",
+        "poked_score": -1.9,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630702.png"
+    },
+    {
+        "player_id": 1631199,
+        "player_name": "Ron Harper Jr.",
+        "team_id": "TOR",
+        "player_position": "Forward",
+        "poked_score": -4.1,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1631199.png"
+    },
+    {
+        "player_id": 1626149,
+        "player_name": "Montrezl Harrell",
+        "team_id": "PHI",
+        "player_position": "Forward-Center",
+        "poked_score": -2.36,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1626149.png"
+    },
+    {
+        "player_id": 203914,
+        "player_name": "Gary Harris",
+        "team_id": "ORL",
+        "player_position": "Guard",
+        "poked_score": -2.02,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/203914.png"
+    },
+    {
+        "player_id": 203925,
+        "player_name": "Joe Harris",
+        "team_id": "BKN",
+        "player_position": "Guard-Forward",
+        "poked_score": -1.99,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/203925.png"
+    },
+    {
+        "player_id": 1630284,
+        "player_name": "Kevon Harris",
+        "team_id": "ORL",
+        "player_position": "Guard",
+        "poked_score": -3.04,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630284.png"
+    },
+    {
+        "player_id": 202699,
+        "player_name": "Tobias Harris",
+        "team_id": "PHI",
+        "player_position": "Forward",
+        "poked_score": 1.55,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/202699.png"
+    },
+    {
+        "player_id": 1628404,
+        "player_name": "Josh Hart",
+        "team_id": "NYK",
+        "player_position": "Guard",
+        "poked_score": 2.05,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1628404.png"
+    },
+    {
+        "player_id": 1628392,
+        "player_name": "Isaiah Hartenstein",
+        "team_id": "NYK",
+        "player_position": "Center-Forward",
+        "poked_score": -0.43,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1628392.png"
+    },
+    {
+        "player_id": 2617,
+        "player_name": "Udonis Haslem",
+        "team_id": "MIA",
+        "player_position": "Forward",
+        "poked_score": -3.5,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/2617.png"
+    },
+    {
+        "player_id": 1630573,
+        "player_name": "Sam Hauser",
+        "team_id": "BOS",
+        "player_position": "Forward",
+        "poked_score": -2.2,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630573.png"
+    },
+    {
+        "player_id": 1629637,
+        "player_name": "Jaxson Hayes",
+        "team_id": "NOP",
+        "player_position": "Center-Forward",
+        "poked_score": -2.44,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1629637.png"
+    },
+    {
+        "player_id": 1630165,
+        "player_name": "Killian Hayes",
+        "team_id": "DET",
+        "player_position": "Guard",
+        "poked_score": 0.5,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630165.png"
+    },
+    {
+        "player_id": 202330,
+        "player_name": "Gordon Hayward",
+        "team_id": "CHA",
+        "player_position": "Forward",
+        "poked_score": 1.38,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/202330.png"
+    },
+    {
+        "player_id": 1627823,
+        "player_name": "Juancho Hernangomez",
+        "team_id": "F_A",
+        "player_position": "Forward",
+        "poked_score": -2.85,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1627823.png"
+    },
+    {
+        "player_id": 1626195,
+        "player_name": "Willy Hernangomez",
+        "team_id": "NOP",
+        "player_position": "Center-Forward",
+        "poked_score": -1.05,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1626195.png"
+    },
+    {
+        "player_id": 1629639,
+        "player_name": "Tyler Herro",
+        "team_id": "MIA",
+        "player_position": "Guard",
+        "poked_score": 3.04,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1629639.png"
+    },
+    {
+        "player_id": 1627741,
+        "player_name": "Buddy Hield",
+        "team_id": "IND",
+        "player_position": "Guard",
+        "poked_score": 1.72,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1627741.png"
+    },
+    {
+        "player_id": 1629312,
+        "player_name": "Haywood Highsmith",
+        "team_id": "MIA",
+        "player_position": "Forward",
+        "poked_score": -2.18,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1629312.png"
+    },
+    {
+        "player_id": 201588,
+        "player_name": "George Hill",
+        "team_id": "IND",
+        "player_position": "Guard",
+        "poked_score": -2.38,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/201588.png"
+    },
+    {
+        "player_id": 1630792,
+        "player_name": "Malcolm Hill",
+        "team_id": "F_A",
+        "player_position": "Forward",
+        "poked_score": -4.58,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630792.png"
+    },
+    {
+        "player_id": 1628988,
+        "player_name": "Aaron Holiday",
+        "team_id": "ATL",
+        "player_position": "Guard",
+        "poked_score": -3.23,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1628988.png"
+    },
+    {
+        "player_id": 201950,
+        "player_name": "Jrue Holiday",
+        "team_id": "MIL",
+        "player_position": "Guard",
+        "poked_score": 3.8,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/201950.png"
+    },
+    {
+        "player_id": 203200,
+        "player_name": "Justin Holiday",
+        "team_id": "DAL",
+        "player_position": "Forward-Guard",
+        "poked_score": -3.28,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/203200.png"
+    },
+    {
+        "player_id": 1626158,
+        "player_name": "Richaun Holmes",
+        "team_id": "SAC",
+        "player_position": "Forward",
+        "poked_score": -3.44,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1626158.png"
+    },
+    {
+        "player_id": 1631096,
+        "player_name": "Chet Holmgren",
+        "team_id": "OKC",
+        "player_position": "Center-Forward",
+        "poked_score": -99.99,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1631096.png"
+    },
+    {
+        "player_id": 201143,
+        "player_name": "Al Horford",
+        "team_id": "BOS",
+        "player_position": "Center-Forward",
+        "poked_score": 0.98,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/201143.png"
+    },
+    {
+        "player_id": 1629659,
+        "player_name": "Talen Horton-Tucker",
+        "team_id": "UTA",
+        "player_position": "Guard",
+        "poked_score": -0.07,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1629659.png"
+    },
+    {
+        "player_id": 1627863,
+        "player_name": "Danuel House Jr.",
+        "team_id": "PHI",
+        "player_position": "Forward-Guard",
+        "poked_score": -3.0,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1627863.png"
+    },
+    {
+        "player_id": 1631216,
+        "player_name": "Caleb Houstan",
+        "team_id": "ORL",
+        "player_position": "Guard",
+        "poked_score": -3.17,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1631216.png"
+    },
+    {
+        "player_id": 1631309,
+        "player_name": "Trevor Hudgins",
+        "team_id": "HOU",
+        "player_position": "Guard",
+        "poked_score": -4.52,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1631309.png"
+    },
+    {
+        "player_id": 1628989,
+        "player_name": "Kevin Huerter",
+        "team_id": "SAC",
+        "player_position": "Guard-Forward",
+        "poked_score": 0.58,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1628989.png"
+    },
+    {
+        "player_id": 1630643,
+        "player_name": "Jay Huff",
+        "team_id": "WAS",
+        "player_position": "Center",
+        "poked_score": -1.65,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630643.png"
+    },
+    {
+        "player_id": 1629631,
+        "player_name": "De'Andre Hunter",
+        "team_id": "ATL",
+        "player_position": "Forward-Guard",
+        "poked_score": 0.57,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1629631.png"
+    },
+    {
+        "player_id": 1630538,
+        "player_name": "Bones Hyland",
+        "team_id": "LAC",
+        "player_position": "Guard",
+        "poked_score": -0.48,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630538.png"
+    },
+    {
+        "player_id": 201586,
+        "player_name": "Serge Ibaka",
+        "team_id": "F_A",
+        "player_position": "Forward",
+        "poked_score": -2.76,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/201586.png"
+    },
+    {
+        "player_id": 2738,
+        "player_name": "Andre Iguodala",
+        "team_id": "GSW",
+        "player_position": "Guard-Forward",
+        "poked_score": -2.81,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/2738.png"
+    },
+    {
+        "player_id": 204060,
+        "player_name": "Joe Ingles",
+        "team_id": "MIL",
+        "player_position": "Forward-Guard",
+        "poked_score": -1.2,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/204060.png"
+    },
+    {
+        "player_id": 1627742,
+        "player_name": "Brandon Ingram",
+        "team_id": "NOP",
+        "player_position": "Forward",
+        "poked_score": 4.55,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1627742.png"
+    },
+    {
+        "player_id": 202681,
+        "player_name": "Kyrie Irving",
+        "team_id": "DAL",
+        "player_position": "Guard",
+        "poked_score": 4.73,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/202681.png"
+    },
+    {
+        "player_id": 1628371,
+        "player_name": "Jonathan Isaac",
+        "team_id": "ORL",
+        "player_position": "Forward",
+        "poked_score": -1.91,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1628371.png"
+    },
+    {
+        "player_id": 1631093,
+        "player_name": "Jaden Ivey",
+        "team_id": "DET",
+        "player_position": "Guard",
+        "poked_score": 1.87,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1631093.png"
+    },
+    {
+        "player_id": 1628402,
+        "player_name": "Frank Jackson",
+        "team_id": "F_A",
+        "player_position": "Guard",
+        "poked_score": -3.74,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1628402.png"
+    },
+    {
+        "player_id": 1630543,
+        "player_name": "Isaiah Jackson",
+        "team_id": "IND",
+        "player_position": "Forward",
+        "poked_score": -1.12,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630543.png"
+    },
+    {
+        "player_id": 1628382,
+        "player_name": "Justin Jackson",
+        "team_id": "F_A",
+        "player_position": "Forward",
+        "poked_score": -4.41,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1628382.png"
+    },
+    {
+        "player_id": 1631245,
+        "player_name": "Quenton Jackson",
+        "team_id": "WAS",
+        "player_position": "Guard",
+        "poked_score": -2.82,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1631245.png"
+    },
+    {
+        "player_id": 202704,
+        "player_name": "Reggie Jackson",
+        "team_id": "DEN",
+        "player_position": "Guard",
+        "poked_score": -0.85,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/202704.png"
+    },
+    {
+        "player_id": 1628991,
+        "player_name": "Jaren Jackson Jr.",
+        "team_id": "MEM",
+        "player_position": "Forward-Center",
+        "poked_score": 2.38,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1628991.png"
+    },
+    {
+        "player_id": 2544,
+        "player_name": "LeBron James",
+        "team_id": "LAL",
+        "player_position": "Forward",
+        "poked_score": 7.12,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/2544.png"
+    },
+    {
+        "player_id": 1629610,
+        "player_name": "DaQuan Jeffries",
+        "team_id": "NYK",
+        "player_position": "Guard-Forward",
+        "poked_score": -4.49,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1629610.png"
+    },
+    {
+        "player_id": 1629660,
+        "player_name": "Ty Jerome",
+        "team_id": "GSW",
+        "player_position": "Guard-Forward",
+        "poked_score": -1.85,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1629660.png"
+    },
+    {
+        "player_id": 1630198,
+        "player_name": "Isaiah Joe",
+        "team_id": "OKC",
+        "player_position": "Guard",
+        "poked_score": -1.58,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630198.png"
+    },
+    {
+        "player_id": 1628993,
+        "player_name": "Alize Johnson",
+        "team_id": "F_A",
+        "player_position": "Forward",
+        "poked_score": -3.37,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1628993.png"
+    },
+    {
+        "player_id": 1629661,
+        "player_name": "Cameron Johnson",
+        "team_id": "BKN",
+        "player_position": "Forward",
+        "poked_score": 0.86,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1629661.png"
+    },
+    {
+        "player_id": 1630552,
+        "player_name": "Jalen Johnson",
+        "team_id": "ATL",
+        "player_position": "Forward",
+        "poked_score": -1.56,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630552.png"
+    },
+    {
+        "player_id": 201949,
+        "player_name": "James Johnson",
+        "team_id": "IND",
+        "player_position": "Forward",
+        "poked_score": -3.4,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/201949.png"
+    },
+    {
+        "player_id": 1629640,
+        "player_name": "Keldon Johnson",
+        "team_id": "SAS",
+        "player_position": "Forward-Guard",
+        "poked_score": 2.79,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1629640.png"
+    },
+    {
+        "player_id": 1630553,
+        "player_name": "Keon Johnson",
+        "team_id": "POR",
+        "player_position": "Guard",
+        "poked_score": -3.09,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630553.png"
+    },
+    {
+        "player_id": 1626169,
+        "player_name": "Stanley Johnson",
+        "team_id": "F_A",
+        "player_position": "Forward-Guard",
+        "poked_score": -1.58,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1626169.png"
+    },
+    {
+        "player_id": 203999,
+        "player_name": "Nikola Jokic",
+        "team_id": "DEN",
+        "player_position": "Center",
+        "poked_score": 8.99,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/203999.png"
+    },
+    {
+        "player_id": 1630637,
+        "player_name": "Carlik Jones",
+        "team_id": "CHI",
+        "player_position": "Guard",
+        "poked_score": -3.85,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630637.png"
+    },
+    {
+        "player_id": 1627745,
+        "player_name": "Damian Jones",
+        "team_id": "UTA",
+        "player_position": "Center",
+        "poked_score": -2.74,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1627745.png"
+    },
+    {
+        "player_id": 1630529,
+        "player_name": "Herbert Jones",
+        "team_id": "NOP",
+        "player_position": "Forward",
+        "poked_score": -0.23,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630529.png"
+    },
+    {
+        "player_id": 1630539,
+        "player_name": "Kai Jones",
+        "team_id": "CHA",
+        "player_position": "Center-Forward",
+        "poked_score": -2.95,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630539.png"
+    },
+    {
+        "player_id": 1630200,
+        "player_name": "Tre Jones",
+        "team_id": "SAS",
+        "player_position": "Guard",
+        "poked_score": 1.5,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630200.png"
+    },
+    {
+        "player_id": 1626145,
+        "player_name": "Tyus Jones",
+        "team_id": "MEM",
+        "player_position": "Guard",
+        "poked_score": -0.03,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1626145.png"
+    },
+    {
+        "player_id": 1627884,
+        "player_name": "Derrick Jones Jr.",
+        "team_id": "CHI",
+        "player_position": "Forward",
+        "poked_score": -2.71,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1627884.png"
+    },
+    {
+        "player_id": 201599,
+        "player_name": "DeAndre Jordan",
+        "team_id": "DEN",
+        "player_position": "Center",
+        "poked_score": -1.16,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/201599.png"
+    },
+    {
+        "player_id": 202709,
+        "player_name": "Cory Joseph",
+        "team_id": "DET",
+        "player_position": "Guard",
+        "poked_score": -1.68,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/202709.png"
+    },
+    {
+        "player_id": 1631107,
+        "player_name": "Nikola Jovic",
+        "team_id": "MIA",
+        "player_position": "Forward",
+        "poked_score": -2.69,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1631107.png"
+    },
+    {
+        "player_id": 1630548,
+        "player_name": "Johnny Juzang",
+        "team_id": "UTA",
+        "player_position": "Guard",
+        "poked_score": -2.88,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630548.png"
+    },
+    {
+        "player_id": 1629662,
+        "player_name": "Mfiondu Kabengele",
+        "team_id": "BOS",
+        "player_position": "Center",
+        "poked_score": -3.53,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1629662.png"
+    },
+    {
+        "player_id": 1626163,
+        "player_name": "Frank Kaminsky",
+        "team_id": "HOU",
+        "player_position": "Forward-Center",
+        "poked_score": -3.58,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1626163.png"
+    },
+    {
+        "player_id": 1631211,
+        "player_name": "Trevor Keels",
+        "team_id": "NYK",
+        "player_position": "Guard",
+        "poked_score": -4.53,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1631211.png"
+    },
+    {
+        "player_id": 1628379,
+        "player_name": "Luke Kennard",
+        "team_id": "MEM",
+        "player_position": "Guard",
+        "poked_score": -1.37,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1628379.png"
+    },
+    {
+        "player_id": 1631117,
+        "player_name": "Walker Kessler",
+        "team_id": "UTA",
+        "player_position": "Center",
+        "poked_score": 1.26,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1631117.png"
+    },
+    {
+        "player_id": 1630296,
+        "player_name": "Braxton Key",
+        "team_id": "F_A",
+        "player_position": "Forward",
+        "poked_score": -4.67,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630296.png"
+    },
+    {
+        "player_id": 1629663,
+        "player_name": "Louis King",
+        "team_id": "PHI",
+        "player_position": "Forward",
+        "poked_score": 1.59,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1629663.png"
+    },
+    {
+        "player_id": 1630557,
+        "player_name": "Corey Kispert",
+        "team_id": "WAS",
+        "player_position": "Forward",
+        "poked_score": -1.06,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630557.png"
+    },
+    {
+        "player_id": 1628467,
+        "player_name": "Maxi Kleber",
+        "team_id": "DAL",
+        "player_position": "Forward",
+        "poked_score": -1.63,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1628467.png"
+    },
+    {
+        "player_id": 1630233,
+        "player_name": "Nathan Knight",
+        "team_id": "MIN",
+        "player_position": "Forward-Center",
+        "poked_score": -3.49,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630233.png"
+    },
+    {
+        "player_id": 1628995,
+        "player_name": "Kevin Knox II",
+        "team_id": "POR",
+        "player_position": "Forward",
+        "poked_score": -2.19,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1628995.png"
+    },
+    {
+        "player_id": 1631132,
+        "player_name": "Christian Koloko",
+        "team_id": "TOR",
+        "player_position": "Center",
+        "poked_score": -2.84,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1631132.png"
+    },
+    {
+        "player_id": 1629723,
+        "player_name": "John Konchar",
+        "team_id": "MEM",
+        "player_position": "Guard",
+        "poked_score": -1.44,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1629723.png"
+    },
+    {
+        "player_id": 1627788,
+        "player_name": "Furkan Korkmaz",
+        "team_id": "PHI",
+        "player_position": "Guard-Forward",
+        "poked_score": -3.57,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1627788.png"
+    },
+    {
+        "player_id": 1628436,
+        "player_name": "Luke Kornet",
+        "team_id": "BOS",
+        "player_position": "Center-Forward",
+        "poked_score": -2.6,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1628436.png"
+    },
+    {
+        "player_id": 1630249,
+        "player_name": "Vit Krejci",
+        "team_id": "ATL",
+        "player_position": "Guard",
+        "poked_score": -4.19,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630249.png"
+    },
+    {
+        "player_id": 1630228,
+        "player_name": "Jonathan Kuminga",
+        "team_id": "GSW",
+        "player_position": "Forward",
+        "poked_score": -0.76,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630228.png"
+    },
+    {
+        "player_id": 1628398,
+        "player_name": "Kyle Kuzma",
+        "team_id": "WAS",
+        "player_position": "Forward",
+        "poked_score": 4.0,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1628398.png"
+    },
+    {
+        "player_id": 1631222,
+        "player_name": "Jake LaRavia",
+        "team_id": "MEM",
+        "player_position": "Forward",
+        "poked_score": -3.38,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1631222.png"
+    },
+    {
+        "player_id": 203897,
+        "player_name": "Zach LaVine",
+        "team_id": "CHI",
+        "player_position": "Guard",
+        "poked_score": 3.53,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/203897.png"
+    },
+    {
+        "player_id": 1630237,
+        "player_name": "Anthony Lamb",
+        "team_id": "GSW",
+        "player_position": "Forward",
+        "poked_score": -1.49,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630237.png"
+    },
+    {
+        "player_id": 1629111,
+        "player_name": "Jock Landale",
+        "team_id": "PHX",
+        "player_position": "Center",
+        "poked_score": -1.37,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1629111.png"
+    },
+    {
+        "player_id": 1629641,
+        "player_name": "Romeo Langford",
+        "team_id": "SAS",
+        "player_position": "Guard-Forward",
+        "poked_score": -1.95,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1629641.png"
+    },
+    {
+        "player_id": 1630639,
+        "player_name": "A.J. Lawson",
+        "team_id": "DAL",
+        "player_position": "Guard",
+        "poked_score": -3.6,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630639.png"
+    },
+    {
+        "player_id": 1627747,
+        "player_name": "Caris LeVert",
+        "team_id": "CLE",
+        "player_position": "Guard",
+        "poked_score": 0.54,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1627747.png"
+    },
+    {
+        "player_id": 1627814,
+        "player_name": "Damion Lee",
+        "team_id": "PHX",
+        "player_position": "Guard-Forward",
+        "poked_score": -1.5,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1627814.png"
+    },
+    {
+        "player_id": 1630240,
+        "player_name": "Saben Lee",
+        "team_id": "PHX",
+        "player_position": "Guard",
+        "poked_score": -2.08,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630240.png"
+    },
+    {
+        "player_id": 203458,
+        "player_name": "Alex Len",
+        "team_id": "SAC",
+        "player_position": "Center",
+        "poked_score": -3.42,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/203458.png"
+    },
+    {
+        "player_id": 202695,
+        "player_name": "Kawhi Leonard",
+        "team_id": "LAC",
+        "player_position": "Forward",
+        "poked_score": 4.23,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/202695.png"
+    },
+    {
+        "player_id": 203086,
+        "player_name": "Meyers Leonard",
+        "team_id": "POR",
+        "player_position": "Forward-Center",
+        "poked_score": -2.18,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/203086.png"
+    },
+    {
+        "player_id": 1631171,
+        "player_name": "Justin Lewis",
+        "team_id": "CHI",
+        "player_position": "Forward",
+        "poked_score": -99.99,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1631171.png"
+    },
+    {
+        "player_id": 1630184,
+        "player_name": "Kira Lewis Jr.",
+        "team_id": "NOP",
+        "player_position": "Guard",
+        "poked_score": -3.21,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630184.png"
+    },
+    {
+        "player_id": 1630604,
+        "player_name": "E.J. Liddell",
+        "team_id": "NOP",
+        "player_position": "Forward",
+        "poked_score": -99.99,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630604.png"
+    },
+    {
+        "player_id": 203081,
+        "player_name": "Damian Lillard",
+        "team_id": "POR",
+        "player_position": "Guard",
+        "poked_score": 6.2,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/203081.png"
+    },
+    {
+        "player_id": 1629642,
+        "player_name": "Nassir Little",
+        "team_id": "POR",
+        "player_position": "Forward-Guard",
+        "poked_score": -2.16,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1629642.png"
+    },
+    {
+        "player_id": 1630587,
+        "player_name": "Isaiah Livers",
+        "team_id": "DET",
+        "player_position": "Forward",
+        "poked_score": -2.07,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630587.png"
+    },
+    {
+        "player_id": 1631254,
+        "player_name": "Kenneth Lofton Jr.",
+        "team_id": "MEM",
+        "player_position": "Forward",
+        "poked_score": -2.76,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1631254.png"
+    },
+    {
+        "player_id": 1626172,
+        "player_name": "Kevon Looney",
+        "team_id": "GSW",
+        "player_position": "Forward",
+        "poked_score": 1.81,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1626172.png"
+    },
+    {
+        "player_id": 201572,
+        "player_name": "Brook Lopez",
+        "team_id": "MIL",
+        "player_position": "Center",
+        "poked_score": 1.89,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/201572.png"
+    },
+    {
+        "player_id": 201577,
+        "player_name": "Robin Lopez",
+        "team_id": "CLE",
+        "player_position": "Center",
+        "poked_score": -3.61,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/201577.png"
+    },
+    {
+        "player_id": 201567,
+        "player_name": "Kevin Love",
+        "team_id": "MIA",
+        "player_position": "Forward-Center",
+        "poked_score": 0.4,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/201567.png"
+    },
+    {
+        "player_id": 200768,
+        "player_name": "Kyle Lowry",
+        "team_id": "MIA",
+        "player_position": "Guard",
+        "poked_score": 0.91,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/200768.png"
+    },
+    {
+        "player_id": 1626168,
+        "player_name": "Trey Lyles",
+        "team_id": "SAC",
+        "player_position": "Forward",
+        "poked_score": -1.21,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1626168.png"
+    },
+    {
+        "player_id": 1630177,
+        "player_name": "Theo Maledon",
+        "team_id": "CHA",
+        "player_position": "Guard",
+        "poked_score": -1.17,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630177.png"
+    },
+    {
+        "player_id": 1630572,
+        "player_name": "Sandro Mamukelashvili",
+        "team_id": "SAS",
+        "player_position": "Forward-Center",
+        "poked_score": -1.24,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630572.png"
+    },
+    {
+        "player_id": 1629611,
+        "player_name": "Terance Mann",
+        "team_id": "LAC",
+        "player_position": "Guard-Forward",
+        "poked_score": -0.85,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1629611.png"
+    },
+    {
+        "player_id": 1630544,
+        "player_name": "Tre Mann",
+        "team_id": "OKC",
+        "player_position": "Guard",
+        "poked_score": -1.79,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630544.png"
+    },
+    {
+        "player_id": 1626246,
+        "player_name": "Boban Marjanovic",
+        "team_id": "HOU",
+        "player_position": "Center",
+        "poked_score": -3.37,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1626246.png"
+    },
+    {
+        "player_id": 1628374,
+        "player_name": "Lauri Markkanen",
+        "team_id": "UTA",
+        "player_position": "Forward-Center",
+        "poked_score": 4.98,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1628374.png"
+    },
+    {
+        "player_id": 1630230,
+        "player_name": "Naji Marshall",
+        "team_id": "NOP",
+        "player_position": "Forward",
+        "poked_score": -0.62,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630230.png"
+    },
+    {
+        "player_id": 1628997,
+        "player_name": "Caleb Martin",
+        "team_id": "MIA",
+        "player_position": "Forward",
+        "poked_score": -0.22,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1628997.png"
+    },
+    {
+        "player_id": 1628998,
+        "player_name": "Cody Martin",
+        "team_id": "CHA",
+        "player_position": "Forward",
+        "poked_score": -1.84,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1628998.png"
+    },
+    {
+        "player_id": 1631213,
+        "player_name": "Tyrese Martin",
+        "team_id": "ATL",
+        "player_position": "Guard",
+        "poked_score": -4.38,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1631213.png"
+    },
+    {
+        "player_id": 1630231,
+        "player_name": "Kenyon Martin Jr.",
+        "team_id": "HOU",
+        "player_position": "Forward",
+        "poked_score": 0.71,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630231.png"
+    },
+    {
+        "player_id": 1629726,
+        "player_name": "Garrison Mathews",
+        "team_id": "ATL",
+        "player_position": "Guard",
+        "poked_score": -3.25,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1629726.png"
+    },
+    {
+        "player_id": 1631097,
+        "player_name": "Bennedict Mathurin",
+        "team_id": "IND",
+        "player_position": "Guard-Forward",
+        "poked_score": 0.81,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1631097.png"
+    },
+    {
+        "player_id": 202083,
+        "player_name": "Wesley Matthews",
+        "team_id": "MIL",
+        "player_position": "Guard",
+        "poked_score": -3.06,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/202083.png"
+    },
+    {
+        "player_id": 1630178,
+        "player_name": "Tyrese Maxey",
+        "team_id": "PHI",
+        "player_position": "Guard",
+        "poked_score": 1.6,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630178.png"
+    },
+    {
+        "player_id": 1630540,
+        "player_name": "Miles McBride",
+        "team_id": "NYK",
+        "player_position": "Guard",
+        "poked_score": -3.61,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630540.png"
+    },
+    {
+        "player_id": 1630644,
+        "player_name": "Mac McClung",
+        "team_id": "PHI",
+        "player_position": "Guard",
+        "poked_score": 1.42,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630644.png"
+    },
+    {
+        "player_id": 203468,
+        "player_name": "CJ McCollum",
+        "team_id": "NOP",
+        "player_position": "Guard",
+        "poked_score": 3.2,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/203468.png"
+    },
+    {
+        "player_id": 204456,
+        "player_name": "T.J. McConnell",
+        "team_id": "IND",
+        "player_position": "Guard",
+        "poked_score": -0.02,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/204456.png"
+    },
+    {
+        "player_id": 1630183,
+        "player_name": "Jaden McDaniels",
+        "team_id": "MIN",
+        "player_position": "Forward",
+        "poked_score": -0.07,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630183.png"
+    },
+    {
+        "player_id": 1629667,
+        "player_name": "Jalen McDaniels",
+        "team_id": "PHI",
+        "player_position": "Forward-Center",
+        "poked_score": -0.51,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1629667.png"
+    },
+    {
+        "player_id": 203926,
+        "player_name": "Doug McDermott",
+        "team_id": "SAS",
+        "player_position": "Forward",
+        "poked_score": -1.47,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/203926.png"
+    },
+    {
+        "player_id": 201580,
+        "player_name": "JaVale McGee",
+        "team_id": "DAL",
+        "player_position": "Center-Forward",
+        "poked_score": -2.85,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/201580.png"
+    },
+    {
+        "player_id": 1631121,
+        "player_name": "Bryce McGowens",
+        "team_id": "CHA",
+        "player_position": "Guard",
+        "poked_score": -2.62,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1631121.png"
+    },
+    {
+        "player_id": 203585,
+        "player_name": "Rodney McGruder",
+        "team_id": "DET",
+        "player_position": "Guard",
+        "poked_score": -2.49,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/203585.png"
+    },
+    {
+        "player_id": 1629162,
+        "player_name": "Jordan McLaughlin",
+        "team_id": "MIN",
+        "player_position": "Guard",
+        "poked_score": -2.5,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1629162.png"
+    },
+    {
+        "player_id": 1629001,
+        "player_name": "De'Anthony Melton",
+        "team_id": "PHI",
+        "player_position": "Guard",
+        "poked_score": -0.14,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1629001.png"
+    },
+    {
+        "player_id": 1630241,
+        "player_name": "Sam Merrill",
+        "team_id": "CLE",
+        "player_position": "Guard",
+        "poked_score": -2.84,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630241.png"
+    },
+    {
+        "player_id": 1629002,
+        "player_name": "Chimezie Metu",
+        "team_id": "SAC",
+        "player_position": "Forward-Center",
+        "poked_score": -2.4,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1629002.png"
+    },
+    {
+        "player_id": 203114,
+        "player_name": "Khris Middleton",
+        "team_id": "MIL",
+        "player_position": "Forward",
+        "poked_score": 1.68,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/203114.png"
+    },
+    {
+        "player_id": 201988,
+        "player_name": "Patty Mills",
+        "team_id": "BKN",
+        "player_position": "Guard",
+        "poked_score": -2.82,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/201988.png"
+    },
+    {
+        "player_id": 1629003,
+        "player_name": "Shake Milton",
+        "team_id": "PHI",
+        "player_position": "Guard-Forward",
+        "poked_score": -1.08,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1629003.png"
+    },
+    {
+        "player_id": 1631169,
+        "player_name": "Josh Minott",
+        "team_id": "MIN",
+        "player_position": "Forward",
+        "poked_score": -3.51,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1631169.png"
+    },
+    {
+        "player_id": 1630558,
+        "player_name": "Davion Mitchell",
+        "team_id": "SAC",
+        "player_position": "Guard",
+        "poked_score": -2.54,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630558.png"
+    },
+    {
+        "player_id": 1628378,
+        "player_name": "Donovan Mitchell",
+        "team_id": "CLE",
+        "player_position": "Guard",
+        "poked_score": 4.2,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1628378.png"
+    },
+    {
+        "player_id": 1630596,
+        "player_name": "Evan Mobley",
+        "team_id": "CLE",
+        "player_position": "Center",
+        "poked_score": 3.6,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630596.png"
+    },
+    {
+        "player_id": 1630600,
+        "player_name": "Isaiah Mobley",
+        "team_id": "CLE",
+        "player_position": "Forward",
+        "poked_score": -3.61,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630600.png"
+    },
+    {
+        "player_id": 1631320,
+        "player_name": "Chima Moneke",
+        "team_id": "F_A",
+        "player_position": "Forward",
+        "poked_score": -4.21,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1631320.png"
+    },
+    {
+        "player_id": 1628370,
+        "player_name": "Malik Monk",
+        "team_id": "SAC",
+        "player_position": "Guard",
+        "poked_score": 0.22,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1628370.png"
+    },
+    {
+        "player_id": 1630541,
+        "player_name": "Moses Moody",
+        "team_id": "GSW",
+        "player_position": "Guard",
+        "poked_score": -3.0,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630541.png"
+    },
+    {
+        "player_id": 1629875,
+        "player_name": "Xavier Moon",
+        "team_id": "LAC",
+        "player_position": "Guard",
+        "poked_score": -3.88,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1629875.png"
+    },
+    {
+        "player_id": 1631111,
+        "player_name": "Wendell Moore Jr.",
+        "team_id": "MIN",
+        "player_position": "Guard",
+        "poked_score": -4.3,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1631111.png"
+    },
+    {
+        "player_id": 1629630,
+        "player_name": "Ja Morant",
+        "team_id": "MEM",
+        "player_position": "Guard",
+        "poked_score": 5.81,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1629630.png"
+    },
+    {
+        "player_id": 202693,
+        "player_name": "Markieff Morris",
+        "team_id": "DAL",
+        "player_position": "Forward",
+        "poked_score": -3.02,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/202693.png"
+    },
+    {
+        "player_id": 1628420,
+        "player_name": "Monte Morris",
+        "team_id": "WAS",
+        "player_position": "Guard",
+        "poked_score": 0.45,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1628420.png"
+    },
+    {
+        "player_id": 202694,
+        "player_name": "Marcus Morris Sr.",
+        "team_id": "LAC",
+        "player_position": "Forward",
+        "poked_score": -0.24,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/202694.png"
+    },
+    {
+        "player_id": 1630530,
+        "player_name": "Trey Murphy III",
+        "team_id": "NOP",
+        "player_position": "Forward",
+        "poked_score": 0.09,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630530.png"
+    },
+    {
+        "player_id": 1627749,
+        "player_name": "Dejounte Murray",
+        "team_id": "ATL",
+        "player_position": "Guard",
+        "poked_score": 3.71,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1627749.png"
+    },
+    {
+        "player_id": 1627750,
+        "player_name": "Jamal Murray",
+        "team_id": "DEN",
+        "player_position": "Guard",
+        "poked_score": 2.99,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1627750.png"
+    },
+    {
+        "player_id": 1631099,
+        "player_name": "Keegan Murray",
+        "team_id": "SAC",
+        "player_position": "Forward",
+        "poked_score": 0.06,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1631099.png"
+    },
+    {
+        "player_id": 203488,
+        "player_name": "Mike Muscala",
+        "team_id": "BOS",
+        "player_position": "Forward-Center",
+        "poked_score": -1.99,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/203488.png"
+    },
+    {
+        "player_id": 1629004,
+        "player_name": "Svi Mykhailiuk",
+        "team_id": "CHA",
+        "player_position": "Guard-Forward",
+        "poked_score": -2.28,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1629004.png"
+    },
+    {
+        "player_id": 1626204,
+        "player_name": "Larry Nance Jr.",
+        "team_id": "NOP",
+        "player_position": "Forward-Center",
+        "poked_score": -0.42,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1626204.png"
+    },
+    {
+        "player_id": 1629614,
+        "player_name": "Andrew Nembhard",
+        "team_id": "IND",
+        "player_position": "Guard-Forward",
+        "poked_score": -0.33,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1629614.png"
+    },
+    {
+        "player_id": 1630174,
+        "player_name": "Aaron Nesmith",
+        "team_id": "IND",
+        "player_position": "Guard-Forward",
+        "poked_score": -0.72,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630174.png"
+    },
+    {
+        "player_id": 203526,
+        "player_name": "Raul Neto",
+        "team_id": "CLE",
+        "player_position": "Guard",
+        "poked_score": -3.38,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/203526.png"
+    },
+    {
+        "player_id": 1627777,
+        "player_name": "Georges Niang",
+        "team_id": "PHI",
+        "player_position": "Forward",
+        "poked_score": -1.9,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1627777.png"
+    },
+    {
+        "player_id": 1630227,
+        "player_name": "Daishen Nix",
+        "team_id": "HOU",
+        "player_position": "Guard",
+        "poked_score": -2.66,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630227.png"
+    },
+    {
+        "player_id": 1630192,
+        "player_name": "Zeke Nnaji",
+        "team_id": "DEN",
+        "player_position": "Forward-Center",
+        "poked_score": -2.64,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630192.png"
+    },
+    {
+        "player_id": 203457,
+        "player_name": "Nerlens Noel",
+        "team_id": "F_A",
+        "player_position": "Center-Forward",
+        "poked_score": -3.11,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/203457.png"
+    },
+    {
+        "player_id": 1629669,
+        "player_name": "Jaylen Nowell",
+        "team_id": "MIN",
+        "player_position": "Guard",
+        "poked_score": -0.95,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1629669.png"
+    },
+    {
+        "player_id": 1628373,
+        "player_name": "Frank Ntilikina",
+        "team_id": "DAL",
+        "player_position": "Guard",
+        "poked_score": -3.45,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1628373.png"
+    },
+    {
+        "player_id": 1629134,
+        "player_name": "Kendrick Nunn",
+        "team_id": "WAS",
+        "player_position": "Guard",
+        "poked_score": -2.42,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1629134.png"
+    },
+    {
+        "player_id": 203994,
+        "player_name": "Jusuf Nurkic",
+        "team_id": "POR",
+        "player_position": "Center",
+        "poked_score": 3.1,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/203994.png"
+    },
+    {
+        "player_id": 1629670,
+        "player_name": "Jordan Nwora",
+        "team_id": "IND",
+        "player_position": "Forward",
+        "poked_score": -1.02,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1629670.png"
+    },
+    {
+        "player_id": 1626220,
+        "player_name": "Royce O'Neale",
+        "team_id": "BKN",
+        "player_position": "Forward",
+        "poked_score": 0.47,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1626220.png"
+    },
+    {
+        "player_id": 1629643,
+        "player_name": "Chuma Okeke",
+        "team_id": "ORL",
+        "player_position": "Forward",
+        "poked_score": -1.87,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1629643.png"
+    },
+    {
+        "player_id": 1629006,
+        "player_name": "Josh Okogie",
+        "team_id": "PHX",
+        "player_position": "Guard",
+        "poked_score": -1.37,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1629006.png"
+    },
+    {
+        "player_id": 1630168,
+        "player_name": "Onyeka Okongwu",
+        "team_id": "ATL",
+        "player_position": "Forward-Center",
+        "poked_score": 0.84,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630168.png"
+    },
+    {
+        "player_id": 1630171,
+        "player_name": "Isaac Okoro",
+        "team_id": "CLE",
+        "player_position": "Forward-Guard",
+        "poked_score": -2.18,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630171.png"
+    },
+    {
+        "player_id": 1629644,
+        "player_name": "KZ Okpala",
+        "team_id": "F_A",
+        "player_position": "Forward-Guard",
+        "poked_score": -4.18,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1629644.png"
+    },
+    {
+        "player_id": 203506,
+        "player_name": "Victor Oladipo",
+        "team_id": "MIA",
+        "player_position": "Guard",
+        "poked_score": -0.27,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/203506.png"
+    },
+    {
+        "player_id": 203482,
+        "player_name": "Kelly Olynyk",
+        "team_id": "UTA",
+        "player_position": "Forward-Center",
+        "poked_score": 1.76,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/203482.png"
+    },
+    {
+        "player_id": 1630647,
+        "player_name": "Eugene Omoruyi",
+        "team_id": "DET",
+        "player_position": "Forward",
+        "poked_score": -2.04,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630647.png"
+    },
+    {
+        "player_id": 1626224,
+        "player_name": "Cedi Osman",
+        "team_id": "CLE",
+        "player_position": "Forward",
+        "poked_score": -1.69,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1626224.png"
+    },
+    {
+        "player_id": 1626162,
+        "player_name": "Kelly Oubre Jr.",
+        "team_id": "CHA",
+        "player_position": "Forward-Guard",
+        "poked_score": 1.95,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1626162.png"
+    },
+    {
+        "player_id": 101108,
+        "player_name": "Chris Paul",
+        "team_id": "PHX",
+        "player_position": "Guard",
+        "poked_score": 2.82,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/101108.png"
+    },
+    {
+        "player_id": 1626166,
+        "player_name": "Cameron Payne",
+        "team_id": "PHX",
+        "player_position": "Guard",
+        "poked_score": -0.42,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1626166.png"
+    },
+    {
+        "player_id": 1627780,
+        "player_name": "Gary Payton II",
+        "team_id": "GSW",
+        "player_position": "Guard",
+        "poked_score": -2.14,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1627780.png"
+    },
+    {
+        "player_id": 1629033,
+        "player_name": "Theo Pinson",
+        "team_id": "DAL",
+        "player_position": "Guard-Forward",
+        "poked_score": -3.4,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1629033.png"
+    },
+    {
+        "player_id": 1630590,
+        "player_name": "Scotty Pippen Jr.",
+        "team_id": "LAL",
+        "player_position": "Guard",
+        "poked_score": -4.17,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630590.png"
+    },
+    {
+        "player_id": 203486,
+        "player_name": "Mason Plumlee",
+        "team_id": "LAC",
+        "player_position": "Forward-Center",
+        "poked_score": 2.57,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/203486.png"
+    },
+    {
+        "player_id": 1627751,
+        "player_name": "Jakob Poeltl",
+        "team_id": "TOR",
+        "player_position": "Center",
+        "poked_score": 2.87,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1627751.png"
+    },
+    {
+        "player_id": 1630197,
+        "player_name": "Aleksej Pokusevski",
+        "team_id": "OKC",
+        "player_position": "Forward",
+        "poked_score": -0.47,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630197.png"
+    },
+    {
+        "player_id": 1629673,
+        "player_name": "Jordan Poole",
+        "team_id": "GSW",
+        "player_position": "Guard",
+        "poked_score": 1.85,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1629673.png"
+    },
+    {
+        "player_id": 1629645,
+        "player_name": "Kevin Porter Jr.",
+        "team_id": "HOU",
+        "player_position": "Guard-Forward",
+        "poked_score": 3.31,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1629645.png"
+    },
+    {
+        "player_id": 1629008,
+        "player_name": "Michael Porter Jr.",
+        "team_id": "DEN",
+        "player_position": "Forward",
+        "poked_score": 1.49,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1629008.png"
+    },
+    {
+        "player_id": 203490,
+        "player_name": "Otto Porter Jr.",
+        "team_id": "TOR",
+        "player_position": "Forward",
+        "poked_score": -2.44,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/203490.png"
+    },
+    {
+        "player_id": 1626171,
+        "player_name": "Bobby Portis",
+        "team_id": "MIL",
+        "player_position": "Forward",
+        "poked_score": 3.04,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1626171.png"
+    },
+    {
+        "player_id": 204001,
+        "player_name": "Kristaps Porzingis",
+        "team_id": "WAS",
+        "player_position": "Forward-Center",
+        "poked_score": 4.66,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/204001.png"
+    },
+    {
+        "player_id": 1630695,
+        "player_name": "Micah Potter",
+        "team_id": "UTA",
+        "player_position": "Center",
+        "poked_score": -3.05,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630695.png"
+    },
+    {
+        "player_id": 203939,
+        "player_name": "Dwight Powell",
+        "team_id": "DAL",
+        "player_position": "Forward-Center",
+        "poked_score": -1.39,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/203939.png"
+    },
+    {
+        "player_id": 1626181,
+        "player_name": "Norman Powell",
+        "team_id": "LAC",
+        "player_position": "Guard",
+        "poked_score": 0.37,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1626181.png"
+    },
+    {
+        "player_id": 1630554,
+        "player_name": "Jason Preston",
+        "team_id": "LAC",
+        "player_position": "Guard",
+        "poked_score": -3.06,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630554.png"
+    },
+    {
+        "player_id": 1630563,
+        "player_name": "Joshua Primo",
+        "team_id": "F_A",
+        "player_position": "Guard",
+        "poked_score": -0.53,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630563.png"
+    },
+    {
+        "player_id": 1627752,
+        "player_name": "Taurean Prince",
+        "team_id": "MIN",
+        "player_position": "Forward",
+        "poked_score": -1.52,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1627752.png"
+    },
+    {
+        "player_id": 1630202,
+        "player_name": "Payton Pritchard",
+        "team_id": "BOS",
+        "player_position": "Guard",
+        "poked_score": -2.62,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630202.png"
+    },
+    {
+        "player_id": 1630243,
+        "player_name": "Trevelin Queen",
+        "team_id": "F_A",
+        "player_position": "Guard",
+        "poked_score": -2.98,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630243.png"
+    },
+    {
+        "player_id": 1629674,
+        "player_name": "Neemias Queta",
+        "team_id": "SAC",
+        "player_position": "Center",
+        "poked_score": -3.43,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1629674.png"
+    },
+    {
+        "player_id": 1630193,
+        "player_name": "Immanuel Quickley",
+        "team_id": "NYK",
+        "player_position": "Guard",
+        "poked_score": 1.14,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630193.png"
+    },
+    {
+        "player_id": 1631311,
+        "player_name": "Lester Quinones",
+        "team_id": "GSW",
+        "player_position": "Guard",
+        "poked_score": -4.01,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1631311.png"
+    },
+    {
+        "player_id": 203944,
+        "player_name": "Julius Randle",
+        "team_id": "NYK",
+        "player_position": "Forward-Center",
+        "poked_score": 6.31,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/203944.png"
+    },
+    {
+        "player_id": 1630559,
+        "player_name": "Austin Reaves",
+        "team_id": "LAL",
+        "player_position": "Guard",
+        "poked_score": 0.16,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630559.png"
+    },
+    {
+        "player_id": 1629629,
+        "player_name": "Cam Reddish",
+        "team_id": "POR",
+        "player_position": "Forward-Guard",
+        "poked_score": -1.57,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1629629.png"
+    },
+    {
+        "player_id": 1628432,
+        "player_name": "Davon Reed",
+        "team_id": "F_A",
+        "player_position": "Guard",
+        "poked_score": -3.79,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1628432.png"
+    },
+    {
+        "player_id": 1630194,
+        "player_name": "Paul Reed",
+        "team_id": "PHI",
+        "player_position": "Forward",
+        "poked_score": -2.2,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630194.png"
+    },
+    {
+        "player_id": 1629675,
+        "player_name": "Naz Reid",
+        "team_id": "MIN",
+        "player_position": "Center-Forward",
+        "poked_score": 0.04,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1629675.png"
+    },
+    {
+        "player_id": 1631197,
+        "player_name": "Jared Rhoden",
+        "team_id": "DET",
+        "player_position": "Guard",
+        "poked_score": -3.04,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1631197.png"
+    },
+    {
+        "player_id": 1630208,
+        "player_name": "Nick Richards",
+        "team_id": "CHA",
+        "player_position": "Center",
+        "poked_score": -0.04,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630208.png"
+    },
+    {
+        "player_id": 1626196,
+        "player_name": "Josh Richardson",
+        "team_id": "NOP",
+        "player_position": "Guard",
+        "poked_score": -0.81,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1626196.png"
+    },
+    {
+        "player_id": 203085,
+        "player_name": "Austin Rivers",
+        "team_id": "MIN",
+        "player_position": "Guard",
+        "poked_score": -2.83,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/203085.png"
+    },
+    {
+        "player_id": 1629130,
+        "player_name": "Duncan Robinson",
+        "team_id": "MIA",
+        "player_position": "Forward",
+        "poked_score": -2.63,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1629130.png"
+    },
+    {
+        "player_id": 1629011,
+        "player_name": "Mitchell Robinson",
+        "team_id": "NYK",
+        "player_position": "Center-Forward",
+        "poked_score": 1.4,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1629011.png"
+    },
+    {
+        "player_id": 1631115,
+        "player_name": "Orlando Robinson",
+        "team_id": "MIA",
+        "player_position": "Center",
+        "poked_score": -2.02,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1631115.png"
+    },
+    {
+        "player_id": 1630526,
+        "player_name": "Jeremiah Robinson-Earl",
+        "team_id": "OKC",
+        "player_position": "Forward",
+        "poked_score": -1.28,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630526.png"
+    },
+    {
+        "player_id": 1629676,
+        "player_name": "Isaiah Roby",
+        "team_id": "NYK",
+        "player_position": "Forward",
+        "poked_score": -2.66,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1629676.png"
+    },
+    {
+        "player_id": 1631223,
+        "player_name": "David Roddy",
+        "team_id": "MEM",
+        "player_position": "Forward",
+        "poked_score": -2.07,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1631223.png"
+    },
+    {
+        "player_id": 1631157,
+        "player_name": "Ryan Rollins",
+        "team_id": "GSW",
+        "player_position": "Guard",
+        "poked_score": -4.03,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1631157.png"
+    },
+    {
+        "player_id": 201565,
+        "player_name": "Derrick Rose",
+        "team_id": "NYK",
+        "player_position": "Guard",
+        "poked_score": -2.64,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/201565.png"
+    },
+    {
+        "player_id": 203082,
+        "player_name": "Terrence Ross",
+        "team_id": "PHX",
+        "player_position": "Guard-Forward",
+        "poked_score": -1.72,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/203082.png"
+    },
+    {
+        "player_id": 1626179,
+        "player_name": "Terry Rozier",
+        "team_id": "CHA",
+        "player_position": "Guard",
+        "poked_score": 2.89,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1626179.png"
+    },
+    {
+        "player_id": 201937,
+        "player_name": "Ricky Rubio",
+        "team_id": "CLE",
+        "player_position": "Guard",
+        "poked_score": -1.82,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/201937.png"
+    },
+    {
+        "player_id": 1626156,
+        "player_name": "D'Angelo Russell",
+        "team_id": "LAL",
+        "player_position": "Guard",
+        "poked_score": 2.05,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1626156.png"
+    },
+    {
+        "player_id": 1630346,
+        "player_name": "Matt Ryan",
+        "team_id": "MIN",
+        "player_position": "Forward",
+        "poked_score": -3.79,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630346.png"
+    },
+    {
+        "player_id": 1627734,
+        "player_name": "Domantas Sabonis",
+        "team_id": "SAC",
+        "player_position": "Forward-Center",
+        "poked_score": 7.33,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1627734.png"
+    },
+    {
+        "player_id": 203967,
+        "player_name": "Dario Saric",
+        "team_id": "OKC",
+        "player_position": "Forward-Center",
+        "poked_score": -1.56,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/203967.png"
+    },
+    {
+        "player_id": 1630846,
+        "player_name": "Olivier Sarr",
+        "team_id": "OKC",
+        "player_position": "Center",
+        "poked_score": -2.44,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630846.png"
+    },
+    {
+        "player_id": 1630648,
+        "player_name": "Jordan Schakel",
+        "team_id": "F_A",
+        "player_position": "Guard",
+        "poked_score": -4.61,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630648.png"
+    },
+    {
+        "player_id": 1629678,
+        "player_name": "Admiral Schofield",
+        "team_id": "ORL",
+        "player_position": "Forward",
+        "poked_score": -3.12,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1629678.png"
+    },
+    {
+        "player_id": 203471,
+        "player_name": "Dennis Schroder",
+        "team_id": "LAL",
+        "player_position": "Guard",
+        "poked_score": 0.19,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/203471.png"
+    },
+    {
+        "player_id": 1631220,
+        "player_name": "Dereon Seabron",
+        "team_id": "NOP",
+        "player_position": "Guard",
+        "poked_score": -4.82,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1631220.png"
+    },
+    {
+        "player_id": 1630578,
+        "player_name": "Alperen Sengun",
+        "team_id": "HOU",
+        "player_position": "Center",
+        "poked_score": 3.68,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630578.png"
+    },
+    {
+        "player_id": 1629012,
+        "player_name": "Collin Sexton",
+        "team_id": "UTA",
+        "player_position": "Guard",
+        "poked_score": -0.15,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1629012.png"
+    },
+    {
+        "player_id": 1629013,
+        "player_name": "Landry Shamet",
+        "team_id": "PHX",
+        "player_position": "Guard",
+        "poked_score": -1.72,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1629013.png"
+    },
+    {
+        "player_id": 1630549,
+        "player_name": "Day'Ron Sharpe",
+        "team_id": "BKN",
+        "player_position": "Center",
+        "poked_score": -1.77,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630549.png"
+    },
+    {
+        "player_id": 1631101,
+        "player_name": "Shaedon Sharpe",
+        "team_id": "POR",
+        "player_position": "Guard",
+        "poked_score": -1.2,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1631101.png"
+    },
+    {
+        "player_id": 1627783,
+        "player_name": "Pascal Siakam",
+        "team_id": "TOR",
+        "player_position": "Forward",
+        "poked_score": 5.6,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1627783.png"
+    },
+    {
+        "player_id": 1629735,
+        "player_name": "Chris Silva",
+        "team_id": "F_A",
+        "player_position": "Forward",
+        "poked_score": -4.68,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1629735.png"
+    },
+    {
+        "player_id": 1627732,
+        "player_name": "Ben Simmons",
+        "team_id": "BKN",
+        "player_position": "Guard-Forward",
+        "poked_score": 1.49,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1627732.png"
+    },
+    {
+        "player_id": 1630250,
+        "player_name": "Marko Simonovic",
+        "team_id": "CHI",
+        "player_position": "Center",
+        "poked_score": -4.75,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630250.png"
+    },
+    {
+        "player_id": 1629014,
+        "player_name": "Anfernee Simons",
+        "team_id": "POR",
+        "player_position": "Guard",
+        "poked_score": 1.81,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1629014.png"
+    },
+    {
+        "player_id": 1630579,
+        "player_name": "Jericho Sims",
+        "team_id": "NYK",
+        "player_position": "Center",
+        "poked_score": -1.88,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630579.png"
+    },
+    {
+        "player_id": 203935,
+        "player_name": "Marcus Smart",
+        "team_id": "BOS",
+        "player_position": "Guard",
+        "poked_score": 0.87,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/203935.png"
+    },
+    {
+        "player_id": 1630696,
+        "player_name": "Dru Smith",
+        "team_id": "BKN",
+        "player_position": "Guard",
+        "poked_score": -3.2,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630696.png"
+    },
+    {
+        "player_id": 202397,
+        "player_name": "Ish Smith",
+        "team_id": "DEN",
+        "player_position": "Guard",
+        "poked_score": -3.16,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/202397.png"
+    },
+    {
+        "player_id": 1630188,
+        "player_name": "Jalen Smith",
+        "team_id": "IND",
+        "player_position": "Forward-Center",
+        "poked_score": 0.04,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630188.png"
+    },
+    {
+        "player_id": 1628372,
+        "player_name": "Dennis Smith Jr.",
+        "team_id": "CHA",
+        "player_position": "Guard",
+        "poked_score": -0.17,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1628372.png"
+    },
+    {
+        "player_id": 1631095,
+        "player_name": "Jabari Smith Jr.",
+        "team_id": "HOU",
+        "player_position": "Forward",
+        "poked_score": 1.52,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1631095.png"
+    },
+    {
+        "player_id": 1631110,
+        "player_name": "Jeremy Sochan",
+        "team_id": "SAS",
+        "player_position": "Forward",
+        "poked_score": 0.61,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1631110.png"
+    },
+    {
+        "player_id": 1630531,
+        "player_name": "Jaden Springer",
+        "team_id": "PHI",
+        "player_position": "Guard",
+        "poked_score": -3.94,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630531.png"
+    },
+    {
+        "player_id": 1630205,
+        "player_name": "Lamar Stevens",
+        "team_id": "CLE",
+        "player_position": "Forward",
+        "poked_score": -2.2,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630205.png"
+    },
+    {
+        "player_id": 1630191,
+        "player_name": "Isaiah Stewart",
+        "team_id": "DET",
+        "player_position": "Forward-Center",
+        "poked_score": 1.7,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630191.png"
+    },
+    {
+        "player_id": 1629622,
+        "player_name": "Max Strus",
+        "team_id": "MIA",
+        "player_position": "Guard-Forward",
+        "poked_score": -0.48,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1629622.png"
+    },
+    {
+        "player_id": 1630591,
+        "player_name": "Jalen Suggs",
+        "team_id": "ORL",
+        "player_position": "Guard",
+        "poked_score": -0.63,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630591.png"
+    },
+    {
+        "player_id": 1628410,
+        "player_name": "Edmond Sumner",
+        "team_id": "BKN",
+        "player_position": "Guard",
+        "poked_score": -2.47,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1628410.png"
+    },
+    {
+        "player_id": 1631306,
+        "player_name": "Cole Swider",
+        "team_id": "LAL",
+        "player_position": "Forward",
+        "poked_score": -4.12,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1631306.png"
+    },
+    {
+        "player_id": 1630256,
+        "player_name": "Jae'Sean Tate",
+        "team_id": "HOU",
+        "player_position": "Forward",
+        "poked_score": -0.46,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630256.png"
+    },
+    {
+        "player_id": 1628369,
+        "player_name": "Jayson Tatum",
+        "team_id": "BOS",
+        "player_position": "Forward-Guard",
+        "poked_score": 6.88,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1628369.png"
+    },
+    {
+        "player_id": 1630678,
+        "player_name": "Terry Taylor",
+        "team_id": "CHI",
+        "player_position": "Forward",
+        "poked_score": -3.65,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630678.png"
+    },
+    {
+        "player_id": 202066,
+        "player_name": "Garrett Temple",
+        "team_id": "NOP",
+        "player_position": "Guard-Forward",
+        "poked_score": -4.16,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/202066.png"
+    },
+    {
+        "player_id": 1631207,
+        "player_name": "Dalen Terry",
+        "team_id": "CHI",
+        "player_position": "Forward",
+        "poked_score": -3.94,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1631207.png"
+    },
+    {
+        "player_id": 1628464,
+        "player_name": "Daniel Theis",
+        "team_id": "IND",
+        "player_position": "Forward-Center",
+        "poked_score": -1.69,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1628464.png"
+    },
+    {
+        "player_id": 1630560,
+        "player_name": "Cam Thomas",
+        "team_id": "BKN",
+        "player_position": "Guard",
+        "poked_score": -1.64,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630560.png"
+    },
+    {
+        "player_id": 202691,
+        "player_name": "Klay Thompson",
+        "team_id": "GSW",
+        "player_position": "Guard",
+        "poked_score": 2.15,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/202691.png"
+    },
+    {
+        "player_id": 1630550,
+        "player_name": "JT Thor",
+        "team_id": "CHA",
+        "player_position": "Forward",
+        "poked_score": -3.05,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630550.png"
+    },
+    {
+        "player_id": 1629680,
+        "player_name": "Matisse Thybulle",
+        "team_id": "POR",
+        "player_position": "Guard-Forward",
+        "poked_score": -3.02,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1629680.png"
+    },
+    {
+        "player_id": 1630214,
+        "player_name": "Xavier Tillman",
+        "team_id": "MEM",
+        "player_position": "Forward",
+        "poked_score": -0.64,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630214.png"
+    },
+    {
+        "player_id": 1630225,
+        "player_name": "Isaiah Todd",
+        "team_id": "WAS",
+        "player_position": "Forward",
+        "poked_score": -3.54,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630225.png"
+    },
+    {
+        "player_id": 1630167,
+        "player_name": "Obi Toppin",
+        "team_id": "NYK",
+        "player_position": "Forward",
+        "poked_score": -1.86,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630167.png"
+    },
+    {
+        "player_id": 1629308,
+        "player_name": "Juan Toscano-Anderson",
+        "team_id": "UTA",
+        "player_position": "Forward",
+        "poked_score": -2.84,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1629308.png"
+    },
+    {
+        "player_id": 1626157,
+        "player_name": "Karl-Anthony Towns",
+        "team_id": "MIN",
+        "player_position": "Center-Forward",
+        "poked_score": 4.73,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1626157.png"
+    },
+    {
+        "player_id": 1629018,
+        "player_name": "Gary Trent Jr.",
+        "team_id": "TOR",
+        "player_position": "Guard-Forward",
+        "poked_score": 0.24,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1629018.png"
+    },
+    {
+        "player_id": 200782,
+        "player_name": "P.J. Tucker",
+        "team_id": "PHI",
+        "player_position": "Forward",
+        "poked_score": -2.16,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/200782.png"
+    },
+    {
+        "player_id": 1626167,
+        "player_name": "Myles Turner",
+        "team_id": "IND",
+        "player_position": "Center-Forward",
+        "poked_score": 2.74,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1626167.png"
+    },
+    {
+        "player_id": 1630649,
+        "player_name": "Stanley Umude",
+        "team_id": "F_A",
+        "player_position": "Guard",
+        "poked_score": -4.68,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630649.png"
+    },
+    {
+        "player_id": 202685,
+        "player_name": "Jonas Valanciunas",
+        "team_id": "NOP",
+        "player_position": "Center",
+        "poked_score": 3.44,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/202685.png"
+    },
+    {
+        "player_id": 1627832,
+        "player_name": "Fred VanVleet",
+        "team_id": "TOR",
+        "player_position": "Guard",
+        "poked_score": 3.23,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1627832.png"
+    },
+    {
+        "player_id": 1629020,
+        "player_name": "Jarred Vanderbilt",
+        "team_id": "LAL",
+        "player_position": "Forward",
+        "poked_score": 1.05,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1629020.png"
+    },
+    {
+        "player_id": 1630170,
+        "player_name": "Devin Vassell",
+        "team_id": "SAS",
+        "player_position": "Guard-Forward",
+        "poked_score": 1.77,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630170.png"
+    },
+    {
+        "player_id": 1629216,
+        "player_name": "Gabe Vincent",
+        "team_id": "MIA",
+        "player_position": "Guard",
+        "poked_score": -1.31,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1629216.png"
+    },
+    {
+        "player_id": 203943,
+        "player_name": "Noah Vonleh",
+        "team_id": "F_A",
+        "player_position": "Forward",
+        "poked_score": -3.71,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/203943.png"
+    },
+    {
+        "player_id": 202696,
+        "player_name": "Nikola Vucevic",
+        "team_id": "CHI",
+        "player_position": "Center",
+        "poked_score": 5.01,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/202696.png"
+    },
+    {
+        "player_id": 1629731,
+        "player_name": "Dean Wade",
+        "team_id": "CLE",
+        "player_position": "Forward-Center",
+        "poked_score": -2.17,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1629731.png"
+    },
+    {
+        "player_id": 1630532,
+        "player_name": "Franz Wagner",
+        "team_id": "ORL",
+        "player_position": "Forward",
+        "poked_score": 1.86,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630532.png"
+    },
+    {
+        "player_id": 1629021,
+        "player_name": "Moritz Wagner",
+        "team_id": "ORL",
+        "player_position": "Forward-Center",
+        "poked_score": -0.23,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1629021.png"
+    },
+    {
+        "player_id": 1630688,
+        "player_name": "Ish Wainright",
+        "team_id": "PHX",
+        "player_position": "Forward",
+        "poked_score": -2.79,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630688.png"
+    },
+    {
+        "player_id": 1631133,
+        "player_name": "Jabari Walker",
+        "team_id": "POR",
+        "player_position": "Forward",
+        "poked_score": -2.95,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1631133.png"
+    },
+    {
+        "player_id": 202689,
+        "player_name": "Kemba Walker",
+        "team_id": "F_A",
+        "player_position": "Guard",
+        "poked_score": -1.88,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/202689.png"
+    },
+    {
+        "player_id": 1629022,
+        "player_name": "Lonnie Walker IV",
+        "team_id": "LAL",
+        "player_position": "Guard-Forward",
+        "poked_score": -1.42,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1629022.png"
+    },
+    {
+        "player_id": 202322,
+        "player_name": "John Wall",
+        "team_id": "F_A",
+        "player_position": "Guard",
+        "poked_score": 0.29,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/202322.png"
+    },
+    {
+        "player_id": 203933,
+        "player_name": "T.J. Warren",
+        "team_id": "PHX",
+        "player_position": "Forward",
+        "poked_score": -1.79,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/203933.png"
+    },
+    {
+        "player_id": 1629023,
+        "player_name": "P.J. Washington",
+        "team_id": "CHA",
+        "player_position": "Forward",
+        "poked_score": 1.31,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1629023.png"
+    },
+    {
+        "player_id": 1630613,
+        "player_name": "Duane Washington Jr.",
+        "team_id": "NYK",
+        "player_position": "Guard",
+        "poked_score": -2.23,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630613.png"
+    },
+    {
+        "player_id": 1631102,
+        "player_name": "TyTy Washington Jr.",
+        "team_id": "HOU",
+        "player_position": "Guard",
+        "poked_score": -2.89,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1631102.png"
+    },
+    {
+        "player_id": 1629139,
+        "player_name": "Yuta Watanabe",
+        "team_id": "BKN",
+        "player_position": "Guard-Forward",
+        "poked_score": -2.49,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1629139.png"
+    },
+    {
+        "player_id": 1630322,
+        "player_name": "Lindy Waters III",
+        "team_id": "OKC",
+        "player_position": "Forward",
+        "poked_score": -2.9,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630322.png"
+    },
+    {
+        "player_id": 1630570,
+        "player_name": "Trendon Watford",
+        "team_id": "POR",
+        "player_position": "Forward",
+        "poked_score": -1.0,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630570.png"
+    },
+    {
+        "player_id": 1631212,
+        "player_name": "Peyton Watson",
+        "team_id": "DEN",
+        "player_position": "Guard",
+        "poked_score": -3.45,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1631212.png"
+    },
+    {
+        "player_id": 1631104,
+        "player_name": "Blake Wesley",
+        "team_id": "SAS",
+        "player_position": "Guard",
+        "poked_score": -2.11,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1631104.png"
+    },
+    {
+        "player_id": 201566,
+        "player_name": "Russell Westbrook",
+        "team_id": "LAC",
+        "player_position": "Guard",
+        "poked_score": 3.5,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/201566.png"
+    },
+    {
+        "player_id": 1629632,
+        "player_name": "Coby White",
+        "team_id": "CHI",
+        "player_position": "Guard",
+        "poked_score": -0.75,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1629632.png"
+    },
+    {
+        "player_id": 1628401,
+        "player_name": "Derrick White",
+        "team_id": "BOS",
+        "player_position": "Guard",
+        "poked_score": 0.5,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1628401.png"
+    },
+    {
+        "player_id": 1631298,
+        "player_name": "Jack White",
+        "team_id": "DEN",
+        "player_position": "Forward",
+        "poked_score": -4.27,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1631298.png"
+    },
+    {
+        "player_id": 1630580,
+        "player_name": "Joe Wieskamp",
+        "team_id": "TOR",
+        "player_position": "Guard-Forward",
+        "poked_score": -4.58,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630580.png"
+    },
+    {
+        "player_id": 1630598,
+        "player_name": "Aaron Wiggins",
+        "team_id": "OKC",
+        "player_position": "Guard",
+        "poked_score": -1.85,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630598.png"
+    },
+    {
+        "player_id": 203952,
+        "player_name": "Andrew Wiggins",
+        "team_id": "GSW",
+        "player_position": "Forward",
+        "poked_score": 1.61,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/203952.png"
+    },
+    {
+        "player_id": 1629623,
+        "player_name": "Lindell Wigginton",
+        "team_id": "MIL",
+        "player_position": "Guard",
+        "poked_score": -2.49,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1629623.png"
+    },
+    {
+        "player_id": 1631214,
+        "player_name": "Alondes Williams",
+        "team_id": "F_A",
+        "player_position": "Guard",
+        "poked_score": -4.58,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1631214.png"
+    },
+    {
+        "player_id": 1631495,
+        "player_name": "Donovan Williams",
+        "team_id": "ATL",
+        "player_position": "Guard",
+        "poked_score": -4.18,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1631495.png"
+    },
+    {
+        "player_id": 1629684,
+        "player_name": "Grant Williams",
+        "team_id": "BOS",
+        "player_position": "Forward",
+        "poked_score": -0.59,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1629684.png"
+    },
+    {
+        "player_id": 1631114,
+        "player_name": "Jalen Williams",
+        "team_id": "OKC",
+        "player_position": "Guard-Forward",
+        "poked_score": 1.09,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1631114.png"
+    },
+    {
+        "player_id": 1631119,
+        "player_name": "Jaylin Williams",
+        "team_id": "OKC",
+        "player_position": "Forward",
+        "poked_score": -0.91,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1631119.png"
+    },
+    {
+        "player_id": 1629026,
+        "player_name": "Kenrich Williams",
+        "team_id": "OKC",
+        "player_position": "Guard-Forward",
+        "poked_score": -0.36,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1629026.png"
+    },
+    {
+        "player_id": 1631109,
+        "player_name": "Mark Williams",
+        "team_id": "CHA",
+        "player_position": "Center",
+        "poked_score": 0.41,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1631109.png"
+    },
+    {
+        "player_id": 1630172,
+        "player_name": "Patrick Williams",
+        "team_id": "CHI",
+        "player_position": "Forward",
+        "poked_score": -0.64,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630172.png"
+    },
+    {
+        "player_id": 1630533,
+        "player_name": "Ziaire Williams",
+        "team_id": "MEM",
+        "player_position": "Forward",
+        "poked_score": -2.59,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630533.png"
+    },
+    {
+        "player_id": 1629057,
+        "player_name": "Robert Williams III",
+        "team_id": "BOS",
+        "player_position": "Center-Forward",
+        "poked_score": 1.14,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1629057.png"
+    },
+    {
+        "player_id": 1631246,
+        "player_name": "Vince Williams Jr.",
+        "team_id": "MEM",
+        "player_position": "Guard",
+        "poked_score": -4.08,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1631246.png"
+    },
+    {
+        "player_id": 1629627,
+        "player_name": "Zion Williamson",
+        "team_id": "NOP",
+        "player_position": "Forward",
+        "poked_score": 5.16,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1629627.png"
+    },
+    {
+        "player_id": 1629685,
+        "player_name": "Dylan Windler",
+        "team_id": "CLE",
+        "player_position": "Guard-Forward",
+        "poked_score": -4.64,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1629685.png"
+    },
+    {
+        "player_id": 1626159,
+        "player_name": "Justise Winslow",
+        "team_id": "POR",
+        "player_position": "Forward-Guard",
+        "poked_score": -0.08,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1626159.png"
+    },
+    {
+        "player_id": 1630164,
+        "player_name": "James Wiseman",
+        "team_id": "DET",
+        "player_position": "Center",
+        "poked_score": 0.11,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630164.png"
+    },
+    {
+        "player_id": 1626174,
+        "player_name": "Christian Wood",
+        "team_id": "DAL",
+        "player_position": "Forward",
+        "poked_score": 2.49,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1626174.png"
+    },
+    {
+        "player_id": 1626153,
+        "player_name": "Delon Wright",
+        "team_id": "WAS",
+        "player_position": "Guard",
+        "poked_score": -0.5,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1626153.png"
+    },
+    {
+        "player_id": 1630593,
+        "player_name": "McKinley Wright IV",
+        "team_id": "DAL",
+        "player_position": "Guard",
+        "poked_score": -2.69,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630593.png"
+    },
+    {
+        "player_id": 201152,
+        "player_name": "Thaddeus Young",
+        "team_id": "TOR",
+        "player_position": "Forward",
+        "poked_score": -2.18,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/201152.png"
+    },
+    {
+        "player_id": 1629027,
+        "player_name": "Trae Young",
+        "team_id": "ATL",
+        "player_position": "Guard",
+        "poked_score": 5.06,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1629027.png"
+    },
+    {
+        "player_id": 1630209,
+        "player_name": "Omer Yurtseven",
+        "team_id": "MIA",
+        "player_position": "Center",
+        "poked_score": -2.83,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630209.png"
+    },
+    {
+        "player_id": 203469,
+        "player_name": "Cody Zeller",
+        "team_id": "MIA",
+        "player_position": "Forward-Center",
+        "poked_score": -1.39,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/203469.png"
+    },
+    {
+        "player_id": 1627826,
+        "player_name": "Ivica Zubac",
+        "team_id": "LAC",
+        "player_position": "Center",
+        "poked_score": 2.37,
+        "player_image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1627826.png"
+    }
+]
