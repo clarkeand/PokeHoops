@@ -1,6 +1,6 @@
   Welcome to Pokéhoops!
 
-  https://media.giphy.com/media/xTiTnpcaFPfJAzaP8A/giphy.gif
+  https://media.giphy.com/media/VapWo1dvqJquP3frRb/giphy.gif
   
   Pokéhoops is a NBA database that utilizes 🏀 NBA player stats to calculate a POKED (P.O.K.E.D. - Power, Offense, Kinetics, Endurance, Defense)
   score of every active (and teamed) NBA player. The inital project will include a searchable player database with team rosters, user login

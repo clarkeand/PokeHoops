@@ -18,7 +18,6 @@ function sortTeam(evt) {
         .then(response => response.json())
         .then(replacePlayers);
 }
-
 document.querySelector('#sortTeam').addEventListener('click', sortTeam);
 
 function sortPosition(evt) {

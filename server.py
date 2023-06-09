@@ -26,6 +26,24 @@ def all_players():
     players = crud.get_players()
     return render_template('players.html',players=players)
 
+@app.route('/fav_player/<player_id>')
+def fav_player(player_id):
+    """Favorite a player."""
+    user_email = session.get("user_email")
+    if user_email == None:
+        flash("Please login first.")
+    else:
+        user = crud.get_user_by_email(user_email)
+        fav_player = crud.create_user_player(player_id,user.user_id)
+        if fav_player == None: 
+            flash("Player is already in your favorites!")
+        else:
+            db.session.add(fav_player)
+            db.session.commit()
+            flash("Player added to favorites!")
+
+    return redirect(f'/players/{player_id}')
+
 @app.route('/sortTeam')
 def sortTeam():
     """Return players list sorted by Team"""
@@ -52,7 +70,7 @@ def register():
 
     user = crud.get_user_by_email(email)
     if not user: 
-        crud.create_user(email,password)
+        user = crud.create_user(email,password)
         db.session.add(user)
         db.session.commit()
         flash("Account created! Please log in.")
