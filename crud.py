@@ -1,5 +1,6 @@
 from model import db, User, NBAPlayer, Team, UserPlayer, connect_to_db
 import json
+from sqlalchemy import desc
 
 def create_user(email, password):
     """Create and return a new user."""
@@ -25,6 +26,31 @@ def create_user_player(player_id, user_id):
 def get_players():
     """Return all players."""
     return NBAPlayer.query.all()
+
+def player_to_dict(player):
+    """Transform a player SQLAlchemy object into a Python dictionary."""
+    return {
+        'player_id': player.player_id,
+        'player_name': player.player_name,
+        'team_id': player.team_id,
+        'player_position': player.player_position,
+        'poked_score': player.poked_score
+    }
+
+def get_players_by_team():
+    """Return all players sorted by team."""
+    players = NBAPlayer.query.order_by(NBAPlayer.team_id).all()
+    return [player_to_dict(player) for player in players]
+
+def get_players_by_position():
+    """Return all players sorted by position."""
+    players = NBAPlayer.query.order_by(NBAPlayer.player_position).all()
+    return [player_to_dict(player) for player in players]
+
+def get_players_by_POKED():
+    """Return all players sorted by POKED in descending order."""
+    players = NBAPlayer.query.order_by(desc(NBAPlayer.poked_score)).all()
+    return [player_to_dict(player) for player in players]
 
 def get_player_by_id(id):
     """Return a player."""

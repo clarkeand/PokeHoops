@@ -10,7 +10,6 @@
     <li>
         <b>Player Name | Player Team | Player Position | P.O.K.E.D. (Power, Offense, Kinetics, Endurance, Defense) Score</b>
     </li> 
-  </ul>
   <div id="players_list">
     {% for player in players %}
       <li>
@@ -21,4 +20,5 @@
     {% endfor %}
   </ul>
 </div>   
+<script src="{{ url_for('static', filename='player_sort.js') }}"></script>
 {% endblock %}

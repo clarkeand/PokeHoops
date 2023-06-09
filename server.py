@@ -1,13 +1,13 @@
 """Server for Pokéhoops app."""
 
 from flask import (Flask, render_template, request, flash, session,
-                   redirect)
+                   redirect,jsonify)
 from model import connect_to_db, db
 from nba_api.stats.endpoints import commonplayerinfo
 import crud
 
 from jinja2 import StrictUndefined
-app = Flask(__name__)
+app = Flask(__name__, static_folder='static')
 app.secret_key = "dev"
 app.jinja_env.undefined = StrictUndefined
 
@@ -25,6 +25,24 @@ def all_players():
     """View all players."""
     players = crud.get_players()
     return render_template('players.html',players=players)
+
+@app.route('/sortTeam')
+def sortTeam():
+    """Return players list sorted by Team"""
+    players = crud.get_players_by_team()
+    return jsonify(players)
+
+@app.route('/sortPosition')
+def sortPosition():
+    """Return players list sorted by Position"""
+    players = crud.get_players_by_position()
+    return jsonify(players)
+
+@app.route('/sortPOKED')
+def sortPOKED():
+    """Return players list sorted by POKED"""
+    players = crud.get_players_by_POKED()
+    return jsonify(players)
 
 @app.route('/register', methods=["POST"])
 def register():

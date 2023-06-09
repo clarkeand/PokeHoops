@@ -1,7 +1,7 @@
 """Models for the Pokéhoops app."""
 
 from flask_sqlalchemy import SQLAlchemy
-from sqlalchemy import ForeignKey
+from sqlalchemy import ForeignKey, desc
 
 db = SQLAlchemy()
 
