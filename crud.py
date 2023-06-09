@@ -1,5 +1,4 @@
 from model import db, User, NBAPlayer, Team, UserPlayer, connect_to_db
-import json
 from sqlalchemy import desc
 
 def create_user(email, password):
@@ -68,28 +67,24 @@ def get_user_by_email(email):
     user = User.query.filter(User.email == email).first()
     return user
 
-def get_players_json():
-    """Return all players as a JSON object."""
-    players = get_players()
-    player_data = []
-    for player in players:
-        player_data.append({
-            'player_id': player.player_id,
-            'player_name': player.player_name,
-            'team_id': player.team_id,
-            'player_position': player.player_position,
-            'poked_score': player.poked_score,
-            'player_image': player.player_image
-        })
-    return player_data
+def get_users_players(user):
+    """Return all user's players"""
+    users_id = user.user_id
+    user_players = UserPlayer.query.filter(UserPlayer.user_id == users_id).all()
+    return user_players
 
-def save_players_to_json():
-    """Save player data to a JSON file."""
-    players_data = get_players_json()
-    with open('players.json', 'w') as file:
-        json.dump(players_data, file, indent=4)
+def get_teams():
+    teams = Team.query.all()
+    return teams
+
+def get_team_by_id(team_id):
+    team = Team.query.filter(Team.team_id == team_id).first()
+    return team
+
+def get_team_players(team_id):
+    players = NBAPlayer.query.filter(NBAPlayer.team_id == team_id).all()
+    return players
 
 if __name__ == '__main__':
     from server import app
     connect_to_db(app)
-    save_players_to_json()

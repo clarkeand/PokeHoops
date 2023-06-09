@@ -114,13 +114,28 @@ def player_page(player_id):
 @app.route('/teams')
 def all_teams():
     """View all teams."""
-    players = crud.get_players()
-    return render_template('players.html',players=players)
+    teams = crud.get_teams()
+    return render_template('teams.html', teams=teams)
 
-@app.route('/user_landing')
+@app.route('/teams/<team_id>')
+def team_page(team_id):
+    """View individual team's roster."""
+    players = crud.get_team_players(team_id)
+    team = crud.get_team_by_id(team_id)
+    team_name = team.team_name
+    return render_template("team_id.html", players=players, team_name=team_name)
+
+@app.route('/user_dashboard')
 def user_page():
     """View user landing page."""
-    return render_template('userid.html')
+    player_list = []
+    user_email = session.get("user_email")
+    user = crud.get_user_by_email(user_email)
+    user_players = crud.get_users_players(user)
+    for user_player in user_players: 
+        NBAplayer = crud.get_player_by_id(user_player.player_id)
+        player_list.append(NBAplayer)
+    return render_template('user_dashboard.html', player_list=player_list)
 
 if __name__ == "__main__":
     connect_to_db(app)

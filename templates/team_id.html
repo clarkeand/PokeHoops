@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+{% block body %}
+<h1>{{ team_name }}</h1>
+ <ul>
+    <li>
+        <b>Roster</b>
+    </li> 
+  <div id="players_list">
+    {% for player in players %}
+      <li>
+        <a href="/players/{{ player.player_id }}">
+          {{ player.player_name }} | {{player.team_id}} | {{player.player_position}} | {{player.poked_score}}
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+</div>   
+<script src="{{ url_for('static', filename='player_sort.js') }}"></script>
+{% endblock %}

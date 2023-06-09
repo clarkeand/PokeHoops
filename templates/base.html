@@ -11,6 +11,11 @@
   </head>
   <body>
     <a href="/">Pokéhoops</a>
+    {% if session['user_email'] %}
+      <a href="/user_dashboard">{{ session['user_email'] }}'s Dashboard</a>
+    {% else %}
+      <a href="/login">Click here to Login!</a>
+    {% endif %}
     {% for msg in get_flashed_messages() %}
       <p class="flash-msg">
         {{ msg }}
