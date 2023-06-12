@@ -1,6 +1,9 @@
 {% extends 'base.html' %}
 {% block body %}
 <h1>{{ session['user_email'] }}'s Dashboard</h1>
+<form action="/logout">
+<input type="submit" value="Logout"/>
+</form>
  <ul>
     <li>
         <b>Favorite Players</b>

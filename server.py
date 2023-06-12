@@ -97,6 +97,12 @@ def login():
         session["user_email"] = user.email
         flash(f"Welcome back, {user.email}!")
         return redirect("/")
+    
+@app.route('/logout')
+def logout():
+    """process logout and go to homepage"""
+    session.clear()
+    return redirect("/")
 
 @app.route('/players/<player_id>')
 def player_page(player_id):
