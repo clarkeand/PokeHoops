@@ -58,6 +58,11 @@ def get_players_by_POKED():
     players = NBAPlayer.query.order_by(desc(NBAPlayer.poked_score)).all()
     return [player_to_dict(player) for player in players]
 
+def get_players_by_name(player_name): 
+    """Return all players with a particular name."""
+    players = NBAPlayer.query.filter(NBAPlayer.player_name.ilike(f'%{player_name}%')).all()
+    return players
+
 def get_player_by_id(id):
     """Return a player."""
     return NBAPlayer.query.get(id)

@@ -62,6 +62,17 @@ def sortPOKED():
     players = crud.get_players_by_POKED()
     return jsonify(players)
 
+@app.route('/searchPlayer')
+def searchPlayer():
+    """Return players list by search"""
+    player_name = request.args.get('playerName')
+    players = crud.get_players_by_name(player_name)
+    if players == None: 
+        flash("Player not found.")
+        redirect("/players")
+    else:
+        return render_template('players.html',players=players)
+
 @app.route('/register', methods=["POST"])
 def register():
     """Allow a user to create an account."""
