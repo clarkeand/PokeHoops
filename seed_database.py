@@ -21,6 +21,10 @@ NBA_APG_MEAN = 2.36
 NBA_APG_STD = 3
 NBA_RPG_MEAN = 4.26
 NBA_RPG_STD = 2
+NBA_SPG_MEAN = 0.8
+NBA_RPG_STD = 0.4
+NBA_BPG_MEAN = 0.8
+NBA_RPG_STD = 0.4
 
 #Import teams from API
 team_dict = teams.get_teams()
