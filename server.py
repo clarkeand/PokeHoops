@@ -113,6 +113,7 @@ def login():
 def logout():
     """process logout and go to homepage"""
     session.clear()
+    flash("Logout Successful!")
     return redirect("/")
 
 @app.route('/players/<player_id>')
