@@ -2,12 +2,13 @@
 
 import os
 from nba_api.stats.static import players, teams
-from nba_api.stats.endpoints import commonplayerinfo, cumestatsplayer
+from nba_api.stats.endpoints import commonplayerinfo, playerdashboardbygamesplits
 import time
 
 import crud
 import model
 import server
+import time
 
 os.system("dropdb favorites")
 os.system('createdb favorites')
@@ -20,11 +21,11 @@ NBA_PPG_STD = 5
 NBA_APG_MEAN = 2.36
 NBA_APG_STD = 3
 NBA_RPG_MEAN = 4.26
-NBA_RPG_STD = 2
-NBA_SPG_MEAN = 0.8
-NBA_RPG_STD = 0.5
-NBA_BPG_MEAN = 0.8
-NBA_RPG_STD = 0.5
+NBA_RPG_STD = 3
+NBA_SPG_MEAN = 0.5
+NBA_SPG_STD = 0.5
+NBA_BPG_MEAN = 0.5
+NBA_BPG_STD = 0.5
 
 #Import teams from API
 team_dict = teams.get_teams()
@@ -58,11 +59,24 @@ for player in player_dict:
     player_position = player_info['POSITION']
     #Set each POKED based on player stats or -99.99 if the player has no available data. 
     player_stats = common_info.player_headline_stats.get_dict()
-    if player_stats['data'] != []: 
+    #need another dict for SPG and BPG
+    time.sleep(1)
+    player_dash = playerdashboardbygamesplits.PlayerDashboardByGameSplits(f'{player_id}')
+    player_dash = player_dash.get_normalized_dict()
+    player_dash = player_dash['OverallPlayerDashboard']
+    try: 
+        player_GP = player_dash[0]['GP']
+    except:
+        player_GP = 0
+    if player_stats['data'] != [] and player_GP != 0: 
         player_ppg = player_stats['data'][0][3]
         player_apg = player_stats['data'][0][4]
         player_rpg = player_stats['data'][0][5]
-        poked_score = round(((player_ppg-NBA_PPG_MEAN)/NBA_PPG_STD)+((player_apg-NBA_APG_MEAN)/NBA_APG_STD)+((player_rpg-NBA_RPG_MEAN)/NBA_RPG_STD),2)
+        player_spg = round(player_dash[0]['STL'] / player_GP,1)
+        player_bpg = round(player_dash[0]['BLK'] / player_GP,1)
+        poked_score = round(((player_ppg-NBA_PPG_MEAN)/NBA_PPG_STD)+((player_apg-NBA_APG_MEAN)/NBA_APG_STD)
+                            +((player_rpg-NBA_RPG_MEAN)/NBA_RPG_STD) + ((player_spg-NBA_SPG_MEAN)/NBA_SPG_STD)
+                            +((player_bpg-NBA_BPG_MEAN)/NBA_BPG_STD),2)
     else: poked_score = -99.99
     print(poked_score)
     #Pull each player image from the NBA site. 

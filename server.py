@@ -3,8 +3,9 @@
 from flask import (Flask, render_template, request, flash, session,
                    redirect,jsonify)
 from model import connect_to_db, db
-from nba_api.stats.endpoints import commonplayerinfo
+from nba_api.stats.endpoints import commonplayerinfo, playerdashboardbygamesplits
 import crud
+import time
 
 from jinja2 import StrictUndefined
 app = Flask(__name__, static_folder='static')
@@ -14,6 +15,8 @@ app.jinja_env.undefined = StrictUndefined
 NBA_PPG_MEAN = 10.8
 NBA_APG_MEAN = 2.36
 NBA_RPG_MEAN = 4.26
+NBA_SPG_MEAN = 0.5
+NBA_BPG_MEAN = 0.5
 
 @app.route('/')
 def homepage():
@@ -126,8 +129,23 @@ def player_page(player_id):
         player_stats = player_stats['data'][0]
     else:
         player_stats = ['N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A']
-    league_averages = [NBA_PPG_MEAN, NBA_APG_MEAN, NBA_RPG_MEAN]
-    return render_template("playerid.html", player=player, player_stats=player_stats, league_averages=league_averages)
+    time.sleep(1)
+    player_dash = playerdashboardbygamesplits.PlayerDashboardByGameSplits(f'{player_id}')
+    player_dash = player_dash.get_normalized_dict()
+    player_dash = player_dash['OverallPlayerDashboard']
+    try: 
+        player_GP = player_dash[0]['GP']
+    except:
+        player_GP = 0
+    if player_GP == 0: 
+        player_spg = 'N/A'
+        player_bpg = 'N/A'
+    else:
+        player_spg = round(player_dash[0]['STL'] / player_GP,1)
+        player_bpg = round(player_dash[0]['BLK'] / player_GP,1)
+    league_averages = [NBA_PPG_MEAN, NBA_APG_MEAN, NBA_RPG_MEAN, NBA_SPG_MEAN, NBA_BPG_MEAN]
+    return render_template("playerid.html", player=player, player_stats=player_stats, 
+                           league_averages=league_averages, player_spg = player_spg, player_bpg = player_bpg)
 
 @app.route('/teams')
 def all_teams():
@@ -141,7 +159,8 @@ def team_page(team_id):
     players = crud.get_team_players(team_id)
     team = crud.get_team_by_id(team_id)
     team_name = team.team_name
-    return render_template("team_id.html", players=players, team_name=team_name)
+    team_image_link = f'https://cdn.ssref.net/req/202306092/tlogo/bbr/{team_id}-2023.png'
+    return render_template("team_id.html", players=players, team_name=team_name,team_image_link=team_image_link)
 
 @app.route('/user_dashboard')
 def user_page():

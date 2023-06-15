@@ -5,7 +5,7 @@
 <p><img src="{{player.player_image}}" alt=""></p>
 <ul>Position: {{player.player_position}}</ul>
 <ul>Team: {{player.team_id}}</ul>
-<ul>PPG: {{player_stats[3]}} | APG: {{player_stats[4]}} | RPG: {{player_stats[5]}}</ul>
+<ul>PPG: {{player_stats[3]}} | APG: {{player_stats[4]}} | RPG: {{player_stats[5]}} | SPG:{{player_spg}} | BPG:{{player_bpg}}</ul>
 <ul>POKED Score: {{player.poked_score}}</ul>
 
 <div>
@@ -17,21 +17,23 @@
   <script>
     const player_stats = JSON.parse('{{ player_stats | tojson | safe }}');
     const league_averages = JSON.parse('{{ league_averages | tojson | safe }}');
+    const player_spg = JSON.parse('{{ player_spg | tojson | safe }}');
+    const player_bpg = JSON.parse('{{ player_bpg | tojson | safe }}');
     const ctx = document.getElementById('myChart');
   
     new Chart(ctx, {
       type: 'line',
       data: {
-        labels: ['PPG', 'APG', 'RPG'],
+        labels: ['PPG', 'APG', 'RPG','SPG','BPG'],
         datasets: [{
           label: 'Player Averages',
-          data: [player_stats[3],player_stats[4],player_stats[5]],
+          data: [player_stats[3],player_stats[4],player_stats[5],player_spg,player_bpg],
           borderWidth: 1,
           tension: .5
         },
         {
           label: 'League Averages',
-          data: [league_averages[0],league_averages[1],league_averages[2]],
+          data: [league_averages[0],league_averages[1],league_averages[2],league_averages[3],league_averages[4]],
           borderWidth: 1,
           tension: .4
         }]
