@@ -2,7 +2,7 @@
 
 import os
 from nba_api.stats.static import players, teams
-from nba_api.stats.endpoints import commonplayerinfo
+from nba_api.stats.endpoints import commonplayerinfo, cumestatsplayer
 import time
 
 import crud
@@ -22,9 +22,9 @@ NBA_APG_STD = 3
 NBA_RPG_MEAN = 4.26
 NBA_RPG_STD = 2
 NBA_SPG_MEAN = 0.8
-NBA_RPG_STD = 0.4
+NBA_RPG_STD = 0.5
 NBA_BPG_MEAN = 0.8
-NBA_RPG_STD = 0.4
+NBA_RPG_STD = 0.5
 
 #Import teams from API
 team_dict = teams.get_teams()
@@ -56,7 +56,7 @@ for player in player_dict:
         team_id = 'F_A'
     #Set player position to default to NA
     player_position = player_info['POSITION']
-    #Set each POKED score to a value of 0 for now. 
+    #Set each POKED based on player stats or -99.99 if the player has no available data. 
     player_stats = common_info.player_headline_stats.get_dict()
     if player_stats['data'] != []: 
         player_ppg = player_stats['data'][0][3]
