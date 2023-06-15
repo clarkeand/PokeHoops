@@ -22,13 +22,12 @@
     const ctx = document.getElementById('myChart');
   
     new Chart(ctx, {
-      type: 'line',
+      type: 'bar',
       data: {
         labels: ['PPG', 'APG', 'RPG','SPG','BPG'],
         datasets: [{
           label: 'Player Averages',
           data: [player_stats[3],player_stats[4],player_stats[5],player_spg,player_bpg],
-          borderWidth: 1,
           tension: .5
         },
         {
@@ -40,6 +39,9 @@
       },
       options: {
         scales: {
+          x: {
+            stacked: true
+          },
           y: {
             beginAtZero: true
           }
