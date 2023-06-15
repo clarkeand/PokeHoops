@@ -159,7 +159,14 @@ def team_page(team_id):
     players = crud.get_team_players(team_id)
     team = crud.get_team_by_id(team_id)
     team_name = team.team_name
-    team_image_link = f'https://cdn.ssref.net/req/202306092/tlogo/bbr/{team_id}-2023.png'
+    if team_id == 'CHA':
+        team_image_link = 'https://cdn.ssref.net/req/202306092/tlogo/bbr/CHO-2023.png'
+    elif team_id == 'BKN':
+        team_image_link = 'https://cdn.ssref.net/req/202306092/tlogo/bbr/BRK-2023.png'
+    elif team_id == 'PHX':
+        team_image_link = 'https://cdn.ssref.net/req/202306092/tlogo/bbr/PHO-2023.png'
+    else:
+        team_image_link = f'https://cdn.ssref.net/req/202306092/tlogo/bbr/{team_id}-2023.png'
     return render_template("team_id.html", players=players, team_name=team_name,team_image_link=team_image_link)
 
 @app.route('/user_dashboard')
