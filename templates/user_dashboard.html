@@ -12,8 +12,7 @@
     {% for player in player_list %}
       <li>
         <a href="/players/{{ player.player_id }}">
-          {{ player.player_name }} | {{player.team_id}} | {{player.player_position}} | {{player.poked_score}}
-        </a>
+          {{ player.player_name }} | {{player.team_id}} | {{player.player_position}} | {{player.poked_score}} </a> &nbsp; &nbsp; <a href="/remove_favorite/{{player.player_id}}"><b>Remove Player From Favorites</b></a> 
       </li>
     {% endfor %}
   </ul>

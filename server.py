@@ -29,24 +29,6 @@ def all_players():
     players = crud.get_players()
     return render_template('players.html',players=players)
 
-@app.route('/fav_player/<player_id>')
-def fav_player(player_id):
-    """Favorite a player."""
-    user_email = session.get("user_email")
-    if user_email == None:
-        flash("Please login first.")
-    else:
-        user = crud.get_user_by_email(user_email)
-        fav_player = crud.create_user_player(player_id,user.user_id)
-        if fav_player == None: 
-            flash("Player is already in your favorites!")
-        else:
-            db.session.add(fav_player)
-            db.session.commit()
-            flash("Player added to favorites!")
-
-    return redirect(f'/players/{player_id}')
-
 @app.route('/sortTeam')
 def sortTeam():
     """Return players list sorted by Team"""
@@ -180,6 +162,36 @@ def user_page():
         NBAplayer = crud.get_player_by_id(user_player.player_id)
         player_list.append(NBAplayer)
     return render_template('user_dashboard.html', player_list=player_list)
+
+@app.route('/fav_player/<player_id>')
+def fav_player(player_id):
+    """Favorite a player."""
+    user_email = session.get("user_email")
+    if user_email == None:
+        flash("Please login first.")
+    else:
+        user = crud.get_user_by_email(user_email)
+        fav_player = crud.create_user_player(player_id,user.user_id)
+        if fav_player == None: 
+            flash("Player is already in your favorites!")
+        else:
+            db.session.add(fav_player)
+            db.session.commit()
+            flash("Player added to favorites!")
+
+    return redirect(f'/players/{player_id}')
+
+@app.route('/remove_favorite/<player_id>')
+def remove_favorite(player_id):
+    """Remove favorite from a user's dashboard page."""
+    user_email = session.get("user_email")
+    user = crud.get_user_by_email(user_email)
+    user_player_to_remove = crud.get_user_player(user.user_id, player_id)
+    db.session.delete(user_player_to_remove)
+    db.session.commit()
+    flash("Player has been removed from your list!")
+
+    return redirect('/user_dashboard')
 
 if __name__ == "__main__":
     connect_to_db(app)

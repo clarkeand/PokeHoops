@@ -78,6 +78,10 @@ def get_users_players(user):
     user_players = UserPlayer.query.filter(UserPlayer.user_id == users_id).all()
     return user_players
 
+def get_user_player(userID,playerID):
+    user_player = UserPlayer.query.filter(UserPlayer.user_id == userID, UserPlayer.player_id == playerID).first()
+    return user_player
+
 def get_teams():
     teams = Team.query.all()
     return teams
