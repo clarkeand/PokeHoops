@@ -1,22 +1,20 @@
 {% extends 'base.html' %}
 {% block body %}
+<div class="container text-center">
 <h1>{{ team_name }}</h1>
 <p>
   <img src="{{team_image_link}}" alt="">
 </p>
- <ul>
-    <li>
-        <b>Roster</b>
-    </li> 
+  <h2><b>Roster</b></h2>
   <div id="players_list">
     {% for player in players %}
-      <li>
         <a href="/players/{{ player.player_id }}">
           {{ player.player_name }} | {{player.team_id}} | {{player.player_position}} | {{player.poked_score}}
         </a>
-      </li>
+        <br>
     {% endfor %}
   </ul>
 </div>   
 <script src="{{ url_for('static', filename='player_sort.js') }}"></script>
+</div>
 {% endblock %}

@@ -1,16 +1,28 @@
 {% extends 'base.html' %}
 
 {% block body %}
+<div class="container text-center">
   <h1>All Players</h1>
-  <h2><button id="sortTeam" class="btn btn-primary mt-2">Sort By Team</button></h2>
-  <h2><button id="sortPosition" class="btn btn-primary mt-2">Sort By Position</button></h2>
-  <h2><button id="sortPOKED" class="btn btn-primary mt-2">Sort By POKED</button></h2>
-
-  <form action="/searchPlayer">
-    <label for="playerName">Player Name Search:</label><br>
-    <input type="text" id="playerName" name="playerName"><br>
-    <input type="submit" value="Search">
-  </form>
+</div>
+<div class="row justify-content-between"> 
+  <div class="col-sm-8">
+    <h2>
+      <button id="sortTeam" class="btn btn-primary mt-2">Sort By Team</button>
+      <button id="sortPosition" class="btn btn-primary mt-2">Sort By Position</button>
+      <button id="sortPOKED" class="btn btn-primary mt-2">Sort By POKED</button>
+    </h2>
+  </div>
+  <div class="col-sm-4">
+    <form action="/searchPlayer">
+      <div class="input-group">
+        <input type="text" class="form-control" id="playerName" name="playerName">
+        <div class="input-group-append">
+          <button class="btn btn-primary" type="submit">Search</button>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
 
   <ul>
     <li>

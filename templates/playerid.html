@@ -1,52 +1,60 @@
 {% extends 'base.html' %}
 {% block body %}
-<h1>{{ player.player_name }}</h1>
-<h3><a href="/fav_player/{{player.player_id}}">Click here to favorite this player!</a></h3>
-<p><img src="{{player.player_image}}" alt=""></p>
-<ul>Position: {{player.player_position}}</ul>
-<ul>Team: {{player.team_id}}</ul>
-<ul>PPG: {{player_stats[3]}} | APG: {{player_stats[4]}} | RPG: {{player_stats[5]}} | SPG:{{player_spg}} | BPG:{{player_bpg}}</ul>
-<ul>POKED Score: {{player.poked_score}}</ul>
 
-<div>
-    <canvas id="myChart"></canvas>
+<div class="container">
+  <div class="row">
+    <div class="col-xl-6">
+      <h1>{{ player.player_name }}</h1>
+      <h3><a href="/fav_player/{{player.player_id}}">Click here to favorite this player!</a></h3>
+      <p><img src="{{player.player_image}}" alt=""></p>
+      <ul>Position: {{player.player_position}}</ul>
+      <ul>Team: {{player.team_id}}</ul>
+      <ul>PPG: {{player_stats[3]}} | APG: {{player_stats[4]}} | RPG: {{player_stats[5]}} | SPG:{{player_spg}} | BPG:{{player_bpg}}</ul>
+      <ul>POKED Score: {{player.poked_score}}</ul>
+    </div>
+    <div class="col-xl-6">
+      <div>
+        <canvas id="myChart"></canvas>
+      </div>
+    </div>
   </div>
+</div>
   
-  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   
-  <script>
-    const player_stats = JSON.parse('{{ player_stats | tojson | safe }}');
-    const league_averages = JSON.parse('{{ league_averages | tojson | safe }}');
-    const player_spg = JSON.parse('{{ player_spg | tojson | safe }}');
-    const player_bpg = JSON.parse('{{ player_bpg | tojson | safe }}');
-    const ctx = document.getElementById('myChart');
-  
-    new Chart(ctx, {
-      type: 'bar',
-      data: {
-        labels: ['PPG', 'APG', 'RPG','SPG','BPG'],
-        datasets: [{
-          label: 'Player Averages',
-          data: [player_stats[3],player_stats[4],player_stats[5],player_spg,player_bpg],
-          tension: .5
-        },
-        {
-          label: 'League Averages',
-          data: [league_averages[0],league_averages[1],league_averages[2],league_averages[3],league_averages[4]],
-          borderWidth: 1,
-          tension: .4
-        }]
+<script>
+  const player_stats = JSON.parse('{{ player_stats | tojson | safe }}');
+  const league_averages = JSON.parse('{{ league_averages | tojson | safe }}');
+  const player_spg = JSON.parse('{{ player_spg | tojson | safe }}');
+  const player_bpg = JSON.parse('{{ player_bpg | tojson | safe }}');
+  const ctx = document.getElementById('myChart');
+
+  new Chart(ctx, {
+    type: 'bar',
+    data: {
+      labels: ['PPG', 'APG', 'RPG','SPG','BPG'],
+      datasets: [{
+        label: 'Player Averages',
+        data: [player_stats[3],player_stats[4],player_stats[5],player_spg,player_bpg],
+        tension: .5
       },
-      options: {
-        scales: {
-          x: {
-            stacked: true
-          },
-          y: {
-            beginAtZero: true
-          }
+      {
+        label: 'League Averages',
+        data: [league_averages[0],league_averages[1],league_averages[2],league_averages[3],league_averages[4]],
+        borderWidth: 1,
+        tension: .4
+      }]
+    },
+    options: {
+      scales: {
+        x: {
+          stacked: true
+        },
+        y: {
+          beginAtZero: true
         }
       }
-    });
-  </script>
+    }
+  });
+</script>
 {% endblock %}
