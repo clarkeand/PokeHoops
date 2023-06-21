@@ -1,5 +1,6 @@
 from model import db, User, NBAPlayer, Team, UserPlayer, connect_to_db
 from sqlalchemy import desc
+import json
 
 def create_user(email, password):
     """Create and return a new user."""

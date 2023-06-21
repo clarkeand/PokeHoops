@@ -6,6 +6,7 @@ from model import connect_to_db, db
 from nba_api.stats.endpoints import commonplayerinfo, playerdashboardbygamesplits
 import crud
 import time
+from passlib.hash import argon2
 
 from jinja2 import StrictUndefined
 app = Flask(__name__, static_folder='static')
@@ -63,10 +64,11 @@ def register():
     """Allow a user to create an account."""
     email = request.form.get("email")
     password = request.form.get("password")
+    pwd_hash = argon2.hash(f'{password}')
 
     user = crud.get_user_by_email(email)
     if not user: 
-        user = crud.create_user(email,password)
+        user = crud.create_user(email,pwd_hash)
         db.session.add(user)
         db.session.commit()
         flash("Account created! Please log in.")
@@ -86,7 +88,7 @@ def login():
     password = request.form.get("password")
 
     user = crud.get_user_by_email(email)
-    if not user or user.password != password:
+    if not user or argon2.verify(f'password', user.password):
         flash("The email or password you entered was incorrect.")
         return render_template("login.html")
     else:
@@ -194,5 +196,5 @@ def remove_favorite(player_id):
     return redirect('/user_dashboard')
 
 if __name__ == "__main__":
-    connect_to_db(app)
+    connect_to_db(app)  
     app.run(host="0.0.0.0", debug=True, port=3000)
