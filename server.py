@@ -195,6 +195,13 @@ def remove_favorite(player_id):
 
     return redirect('/user_dashboard')
 
+@app.route('/make_a_starting_5')
+def starting_5(): 
+    guards = crud.get_players_by_position('Guard')
+    forwards = crud.get_players_by_position('Forward')
+    centers = crud.get_players_by_position('Center')
+    return render_template('make_a_team.html', gurads=guards, forwards=forwards, centers=centers)
+
 if __name__ == "__main__":
     connect_to_db(app)  
     app.run(host="0.0.0.0", debug=True, port=3000)
