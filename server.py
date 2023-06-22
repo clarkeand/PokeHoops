@@ -88,7 +88,7 @@ def login():
     password = request.form.get("password")
 
     user = crud.get_user_by_email(email)
-    if not user or argon2.verify(f'password', user.password):
+    if not user or argon2.verify(f'{password}', f'{user.password}'):
         flash("The email or password you entered was incorrect.")
         return render_template("login.html")
     else:
@@ -200,7 +200,19 @@ def starting_5():
     guards = crud.get_players_by_position('Guard')
     forwards = crud.get_players_by_position('Forward')
     centers = crud.get_players_by_position('Center')
-    return render_template('make_a_team.html', gurads=guards, forwards=forwards, centers=centers)
+    return render_template('make_a_team.html', guards=guards, forwards=forwards, centers=centers)
+
+@app.route('/make_a_starting_5/results', methods=["POST"])
+def starting_5_results(): 
+    g1 = request.form.get("guard1")
+    g2 = request.form.get("guard2")
+    f1 = request.form.get("forward1")
+    f2 = request.form.get("forward2")
+    c = request.form.get("center")
+    start_5 = [g1,g2,f1,f2,c]
+    #flash(f"{start_5}")
+
+    return render_template('make_a_team_results.html')
 
 if __name__ == "__main__":
     connect_to_db(app)  
