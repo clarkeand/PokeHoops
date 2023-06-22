@@ -63,6 +63,11 @@ def get_players_by_name(player_name):
     players = NBAPlayer.query.filter(NBAPlayer.player_name.ilike(f'%{player_name}%')).all()
     return players
 
+def get_players_by_position(position):
+    """Return all players that play a position"""
+    players = NBAPlayer.query.filter(NBAPlayer.player_position.ilike(f'%{position}%')).all()
+    return players
+
 def get_player_by_id(id):
     """Return a player."""
     return NBAPlayer.query.get(id)
