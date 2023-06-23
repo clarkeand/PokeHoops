@@ -227,7 +227,11 @@ def starting_5_results():
         
     poked_avg = 0
     for player in players:
-        poked_avg += player.poked_score
+        poked = player.poked_score
+        if poked == -99.99:
+            poked_avg += 0
+        else:
+            poked_avg+=poked
 
     start_5 = players
     poked_avg = round(poked_avg / 5,2)
