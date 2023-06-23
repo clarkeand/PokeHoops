@@ -21,7 +21,7 @@ class NBAPlayer(db.Model):
     team = db.relationship("Team", backref="nbaplayers")
 
     def __repr__(self):
-        return f'<NBAPlayer player_id={self.player_id} player_name={self.player_name} team_id={self.team_id} player_position={self.player_position}poked_score={self.poked_score}>'
+        return f'<NBAPlayer player_id={self.player_id} player_name={self.player_name} team_id={self.team_id} player_position={self.player_position} poked_score={self.poked_score}>'
     
 class Team(db.Model):
     """A single NBA team.

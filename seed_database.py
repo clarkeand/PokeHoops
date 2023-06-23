@@ -16,8 +16,8 @@ model.connect_to_db(server.app)
 model.db.create_all()
 
 #Declare contants for POKED score. 
-NBA_PPG_MEAN = 10.8
-NBA_PPG_STD = 5
+NBA_PPG_MEAN = 10
+NBA_PPG_STD = 4
 NBA_APG_MEAN = 2.36
 NBA_APG_STD = 3
 NBA_RPG_MEAN = 4.26

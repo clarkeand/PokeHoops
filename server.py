@@ -204,15 +204,34 @@ def starting_5():
 
 @app.route('/make_a_starting_5/results', methods=["POST"])
 def starting_5_results(): 
-    g1 = request.form.get("guard1")
-    g2 = request.form.get("guard2")
-    f1 = request.form.get("forward1")
-    f2 = request.form.get("forward2")
+    pg = request.form.get("guard1")
+    sg = request.form.get("guard2")
+    sf = request.form.get("forward1")
+    pf = request.form.get("forward2")
     c = request.form.get("center")
-    start_5 = [g1,g2,f1,f2,c]
-    #flash(f"{start_5}")
 
-    return render_template('make_a_team_results.html')
+    start_5 = [pg, sg, sf, pf, c]
+
+    if "" in start_5:
+        flash("One or more players do not exist!")
+        return redirect('/make_a_starting_5')
+
+    if len(start_5) != len(set(start_5)): 
+        flash("Invalid Entry: You cannot have multiples of the same player!")
+        return redirect('/make_a_starting_5')
+    
+    players = []
+    for id in start_5: 
+        player = crud.get_player_by_id(id)
+        players.append(player)
+        
+    poked_avg = 0
+    for player in players:
+        poked_avg += player.poked_score
+
+    start_5 = players
+    poked_avg = round(poked_avg / 5,2)
+    return render_template('make_a_team_results.html',poked_avg=poked_avg,start_5=start_5)
 
 if __name__ == "__main__":
     connect_to_db(app)  

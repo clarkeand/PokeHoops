@@ -72,6 +72,11 @@ def get_player_by_id(id):
     """Return a player."""
     return NBAPlayer.query.get(id)
 
+def get_player_by_name(name):
+    "Return a player by name"
+    player = NBAPlayer.query.filter(NBAPlayer.player_name.ilike(f'%{name}%')).first()
+    return player
+
 def get_user_by_email(email):
     """Return a user by email."""
     user = User.query.filter(User.email == email).first()
