@@ -3,7 +3,7 @@
 <div class="container-fluid text-center">
 <h1>{{ session['user_email'] }}'s Dashboard</h1>
 <form action="/logout">
-<input type="submit" value="Logout"/>
+<input type="submit" class="btn btn-danger" value="Logout"/>
 </form>
 </div>
  <ul>
@@ -11,8 +11,8 @@
   <div id="players_list">
     {% for player in player_list %}
       <li>
-        <a href="/players/{{ player.player_id }}">
-          {{ player.player_name }} | {{player.team_id}} | {{player.player_position}} | {{player.poked_score}} </a> &nbsp; &nbsp; <a href="/remove_favorite/{{player.player_id}}"><b>Remove Player From Favorites</b></a> 
+        <a href="/players/{{ player.player_id }}" class="link-danger">
+          {{ player.player_name }} | {{player.team_id}} | {{player.player_position}} | {{player.poked_score}} </a> &nbsp; &nbsp; <a href="/remove_favorite/{{player.player_id}}" class="link-danger"><b>Remove Player From Favorites</b></a> 
       </li>
     {% endfor %}
   </ul>
