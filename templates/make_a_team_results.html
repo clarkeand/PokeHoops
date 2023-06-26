@@ -1,0 +1,39 @@
+{% extends 'base.html' %}
+{% block body %}
+<div class="container-fluid text-center">
+<h1>GREAT PICKS! Your NBA Team is:</h1>
+<div class="row justify-content-center">
+    <div class="col-md-2">
+        <h3>POINT GUARD:</h3>
+        <p><img src="{{start_5[0].player_image}}" alt=""></p>
+        <h4>{{start_5[0].player_name}}</h4>
+        <h5>POKED Score: {{start_5[0].poked_score}}</h5>
+    </div>
+    <div class="col-md-2">
+        <h3>SHOOTING GUARD:</h3>
+        <p><img src="{{start_5[1].player_image}}" alt=""></p>
+        <h4>{{start_5[1].player_name}}</h4>
+        <h5>POKED Score: {{start_5[1].poked_score}}</h5>
+    </div>
+    <div class="col-md-2">
+        <h3>SMALL FORWARD:</h3>
+        <p><img src="{{start_5[2].player_image}}" alt=""></p>
+        <h4>{{start_5[2].player_name}}</h4>
+        <h5>POKED Score: {{start_5[2].poked_score}}</h5>
+    </div>
+    <div class="col-md-2">
+        <h3>POWER FORWARD:</h3>
+        <p><img src="{{start_5[3].player_image}}" alt=""></p>
+        <h4>{{start_5[3].player_name}}</h4>
+        <h5>POKED Score: {{start_5[3].poked_score}}</h5>
+    </div>
+    <div class="col-md-2">
+        <h3>CENTER:</h3>
+        <p><img src="{{start_5[4].player_image}}" alt=""></p>
+        <h4>{{start_5[4].player_name}}</h4>
+        <h5>POKED Score: {{start_5[4].poked_score}}</h5>
+    </div>
+</div>
+<h2>Your estimated POKED team average is: {{poked_avg}}</h2>
+</div>
+{% endblock %}
