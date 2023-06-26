@@ -48,7 +48,7 @@ def get_players_by_team():
     players = NBAPlayer.query.order_by(NBAPlayer.team_id).all()
     return [player_to_dict(player) for player in players]
 
-def get_players_by_position():
+def get_list_players_by_position():
     """Return all players sorted by position."""
     players = NBAPlayer.query.order_by(NBAPlayer.player_position).all()
     return [player_to_dict(player) for player in players]

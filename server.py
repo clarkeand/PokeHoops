@@ -39,7 +39,7 @@ def sortTeam():
 @app.route('/sortPosition')
 def sortPosition():
     """Return players list sorted by Position"""
-    players = crud.get_players_by_position()
+    players = crud.get_list_players_by_position()
     return jsonify(players)
 
 @app.route('/sortPOKED')
