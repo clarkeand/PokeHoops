@@ -2,7 +2,7 @@
 
 {% block body %}
 <div class="container text-center">
-  <h1>All Players</h1>
+  <h1 class = pokemonText>All Players</h1>
 </div>
 <div class="row justify-content-between"> 
   <div class="col-sm-8">
@@ -22,12 +22,9 @@
       </div>
     </form>
   </div>
+  <b class="text-center">Player Name | Player Team | Player Position | P.O.K.E.D. (Power, Offense, Kinetics, Endurance, Defense) Score</b>
 </div>
-
   <ul>
-    <li>
-        <b>Player Name | Player Team | Player Position | P.O.K.E.D. (Power, Offense, Kinetics, Endurance, Defense) Score</b>
-    </li> 
   <div id="players_list">
     {% for player in players %}
       <li>

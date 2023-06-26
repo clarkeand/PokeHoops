@@ -2,11 +2,11 @@
 {% block body %}
 <div class="container-fluid text-center">
 <form action = "/make_a_starting_5/results" method="POST" id="team-selection-form">
-    <h2>Pick 2 Guards [PG/SG]</h2>
+    <h2 class="pokemonText">Pick 2 Guards [PG/SG]</h2>
     <div id="guard-selection">
         {% for i in range(2) %}
             <select class="player-select guard" name="guard{{ i+1 }}">
-                <option value="">Select a guard</option>
+                <option value="">Select a Guard</option>
                 {% for guard in guards %}
                     <option value="{{ guard.player_id }}">{{ guard.player_name }}</option>
                 {% endfor %}
@@ -14,11 +14,11 @@
         {% endfor %}
     </div>
 
-    <h2>Pick 2 Forwards[SF/PF]</h2>
+    <h2 class="pokemonText">Pick 2 Forwards[SF/PF]</h2>
     <div id="forward-selection">
         {% for i in range(2) %}
             <select class="player-select forward" name="forward{{ i+1 }}">
-                <option value="">Select a forward</option>
+                <option value="">Select a Forward</option>
                 {% for forward in forwards %}
                     <option value="{{ forward.player_id }}">{{ forward.player_name }}</option>
                 {% endfor %}
@@ -26,10 +26,10 @@
         {% endfor %}
     </div>
 
-    <h2>Pick 1 Center[C]</h2>
+    <h2 class="pokemonText">Pick 1 Center[C]</h2>
     <div id="center-selection">
         <select class="player-select center" name="center">
-            <option value="">Select a center</option>
+            <option value="">Select a Center</option>
             {% for center in centers %}
                 <option value="{{ center.player_id }}">{{ center.player_name }}</option>
             {% endfor %}

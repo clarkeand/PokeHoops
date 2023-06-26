@@ -1,7 +1,7 @@
 {% extends 'base.html' %}
 {% block body %}
 <div class="container-fluid text-center">
-<h1>GREAT PICKS! Your NBA Team is:</h1>
+<h1 class="pokemonText">GREAT PICKS! Your NBA Team is:</h1>
 <div class="row justify-content-center">
     <div class="col-md-2">
         <h3>POINT GUARD:</h3>
@@ -34,6 +34,6 @@
         <h5>POKED Score: {{start_5[4].poked_score}}</h5>
     </div>
 </div>
-<h2>Your estimated POKED team average is: {{poked_avg}}</h2>
+<h2 class="pokemonText">Your estimated POKED team average is: {{poked_avg}}</h2>
 </div>
 {% endblock %}

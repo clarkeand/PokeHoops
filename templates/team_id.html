@@ -1,14 +1,14 @@
 {% extends 'base.html' %}
 {% block body %}
 <div class="container text-center">
-<h1>{{ team_name }}</h1>
+<h1 class="pokemonText">{{ team_name }}</h1>
 <p>
   <img src="{{team_image_link}}" alt="">
 </p>
-  <h2><b>Roster</b></h2>
+  <h2 class="pokemonText"><b>Roster</b></h2>
   <div id="players_list">
     {% for player in players %}
-        <a href="/players/{{ player.player_id }}">
+        <a href="/players/{{ player.player_id }}" class="link-danger">
           {{ player.player_name }} | {{player.team_id}} | {{player.player_position}} | {{player.poked_score}}
         </a>
         <br>
