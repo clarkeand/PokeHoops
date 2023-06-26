@@ -8,6 +8,7 @@ function replacePlayers(results) {
         let playerLink = document.createElement('a');
         playerLink.href = `/players/${player.player_id}`;
         playerLink.textContent = `${player.player_name} | ${player.team_id} | ${player.player_position} | ${player.poked_score}`;
+        playerLink.classList.add('link-danger');
         playerItem.appendChild(playerLink);
         playersList.appendChild(playerItem);
     });

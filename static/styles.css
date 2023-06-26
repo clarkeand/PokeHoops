@@ -10,3 +10,8 @@ body {
 .pokemonAnimeText{
     font-family: 'Pokemon Solid', sans-serif;
 }
+
+.smallPokeText{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 1 px;
+}
