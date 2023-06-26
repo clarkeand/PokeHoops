@@ -88,7 +88,7 @@ def login():
     password = request.form.get("password")
 
     user = crud.get_user_by_email(email)
-    if not user or argon2.verify(f'{password}', f'{user.password}'):
+    if not user or not argon2.verify(f'{password}', f'{user.password}'):
         flash("The email or password you entered was incorrect.")
         return render_template("login.html")
     else:

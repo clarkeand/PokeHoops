@@ -7,9 +7,9 @@
 <div class="row justify-content-between"> 
   <div class="col-sm-8">
     <h2>
-      <button id="sortTeam" class="btn btn-primary mt-2">Sort By Team</button>
-      <button id="sortPosition" class="btn btn-primary mt-2">Sort By Position</button>
-      <button id="sortPOKED" class="btn btn-primary mt-2">Sort By POKED</button>
+      <button id="sortTeam" class="btn btn-danger mt-2">Sort By Team</button>
+      <button id="sortPosition" class="btn btn-danger mt-2">Sort By Position</button>
+      <button id="sortPOKED" class="btn btn-danger mt-2">Sort By POKED</button>
     </h2>
   </div>
   <div class="col-sm-4">
@@ -17,7 +17,7 @@
       <div class="input-group">
         <input type="text" class="form-control" id="playerName" name="playerName">
         <div class="input-group-append">
-          <button class="btn btn-primary" type="submit">Search</button>
+          <button class="btn btn-danger" type="submit">Search</button>
         </div>
       </div>
     </form>
@@ -31,7 +31,7 @@
   <div id="players_list">
     {% for player in players %}
       <li>
-        <a href="/players/{{ player.player_id }}">
+        <a href="/players/{{ player.player_id }}" class="link-danger">
           {{ player.player_name }} | {{player.team_id}} | {{player.player_position}} | {{player.poked_score}}
         </a>
       </li>
