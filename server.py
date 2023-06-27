@@ -191,7 +191,7 @@ def remove_favorite(player_id):
     user_player_to_remove = crud.get_user_player(user.user_id, player_id)
     db.session.delete(user_player_to_remove)
     db.session.commit()
-    flash("Player has been removed from your list!")
+    flash("Player has been removed from your favorites!")
 
     return redirect('/user_dashboard')
 
