@@ -1,12 +1,12 @@
 Pokéhoops
 ===========
 
-![hi_dame](https://github.com/clarkeand/PokeHoops/blob/main/static/Pokehoops_Homepage.png?raw=true)
-
 ### Overview
 Pokéhoops is a captivating Flask web application that combines the world of NBA basketball with the excitement of Pokémon. It leverages NBA player stats and generates a personalized statistic score for every active NBA player based on the P.O.K.E.D. framework (Power, Offense, Kinetics, Endurance, Defense).
 
 As a user, you can favorite players, build a hypothetical starting five, calculate that team's POKED score, and view current team rosters and player info from the 22-23 NBA season. This unique crossover project brings together the thrill of sports analytics and the nostalgia of Pokémon, resulting in an engaging and innovative user experience.
+
+![hi_dame](https://github.com/clarkeand/PokeHoops/blob/main/static/Pokehoops_Homepage.png?raw=true)
 
 ### Technologies Used
 NBA_API
