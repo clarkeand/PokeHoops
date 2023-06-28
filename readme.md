@@ -1,7 +1,7 @@
 Pokéhoops
 ===========
 
-![hi_dame](https://imgur.com/a/8o5Z8Bj)
+![hi_dame](https://ibb.co/vBv47yW)
 
 ### Overview
 Pokéhoops is a captivating Flask web application that combines the world of NBA basketball with the excitement of Pokémon. It leverages NBA player stats and generates a personalized statistic score for every active NBA player based on the P.O.K.E.D. framework (Power, Offense, Kinetics, Endurance, Defense).
