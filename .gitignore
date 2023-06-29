@@ -1,3 +1,4 @@
 env
 test.py
 secrets.sh
+.env

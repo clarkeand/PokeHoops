@@ -4,13 +4,16 @@ from flask import (Flask, render_template, request, flash, session,
                    redirect,jsonify)
 from model import connect_to_db, db
 from nba_api.stats.endpoints import commonplayerinfo, playerdashboardbygamesplits
+from passlib.hash import argon2
+from dotenv import load_dotenv
 import crud
 import time
-from passlib.hash import argon2
+import os
+load_dotenv()
 
 from jinja2 import StrictUndefined
 app = Flask(__name__, static_folder='static')
-app.secret_key = "dev"
+app.secret_key = os.environ['SECRET_KEY']
 app.jinja_env.undefined = StrictUndefined
 
 NBA_PPG_MEAN = 10.8
