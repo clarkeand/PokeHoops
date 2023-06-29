@@ -13,34 +13,34 @@
     <link href="../static/styles.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
-    <link rel = "icon" href = "https://media.discordapp.net/attachments/1012857159421263942/1115765963162386493/Gr0wlitttbeats_pokeball_basketball_logo_53d0d645-11b6-4602-803a-13085909be6f.png?width=1306&height=1306" type = "image/x-icon">
+    <link rel = "icon" href = "https://media.discordapp.net/attachments/1012857159421263942/1115765963162386493/Gr0wlitttbeats_pokeball_basketball_logo_53d0d645-11b6-4602-803a-13085909be6f.png?width=1306&height=1306" type = "image/x-icon" class="justify-content-center">
     <style>
     </style>
     {% block head %}{% endblock %}
   </head>
   <body>
     <div class="text-bg-light p-3 brand-text">
-    <nav class="navbar" style="background-color: #b62d27;">
+    <nav class="navbar navbar-expand-lg" style="background-color: #b62d27;">
       <div class="container-fluid pokemonAnimeText">
         <a class="navbar-brand" href="/">
-          <img src="https://media.discordapp.net/attachments/1012857159421263942/1115765963162386493/Gr0wlitttbeats_pokeball_basketball_logo_53d0d645-11b6-4602-803a-13085909be6f.png?width=1306&height=1306" alt="Logo" width="60" height="60"> 
+          <img src="https://media.discordapp.net/attachments/1012857159421263942/1115765963162386493/Gr0wlitttbeats_pokeball_basketball_logo_53d0d645-11b6-4602-803a-13085909be6f.png?width=1306&height=1306" alt="Logo" width="40" height="38"> 
           Pokéhoops
         </a>
-        <a class="navbar-brand" href="/players">
+        <a class="nav-link" href="/players">
           View All Players
         </a>
-        <a class="navbar-brand" href="/teams">
+        <a class="nav-link" href="/teams">
           View All Teams
         </a>
-        <a class="navbar-brand" href="/make_a_starting_5">
+        <a class="nav-link" href="/make_a_starting_5">
           Create a Starting Five
         </a>
         {% if session.get('user_email') %}
-        <a class="navbar-brand" href="/user_dashboard">
+        <a class="nav-link" href="/user_dashboard">
           View Dashboard
         </a>
         {% else %}
-        <a class="navbar-brand" href="/login">
+        <a class="nav-link`" href="/login">
           Login/Signup
         </a>
         {% endif %}
