@@ -20,7 +20,7 @@ Bootstrap
 Jinja
 Chart.Js
 
-###Features
+### Features
 Player Stats: Comprehensive statistics for every active NBA player, including a unique POKED score (calculates std deviation of each stat and add/subtracts from POKED total).
 Favorites: Save your favorite players for quick and easy access.
 Team Builder: Assemble a hypothetical starting five from the entire NBA roster and calculate a unique POKED for that team.
