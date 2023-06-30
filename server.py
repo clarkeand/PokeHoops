@@ -116,7 +116,7 @@ def player_page(player_id):
         player_stats = player_stats['data'][0]
     else:
         player_stats = ['N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A']
-    time.sleep(1)
+    time.sleep(5)
     player_dash = playerdashboardbygamesplits.PlayerDashboardByGameSplits(f'{player_id}')
     player_dash = player_dash.get_normalized_dict()
     player_dash = player_dash['OverallPlayerDashboard']
