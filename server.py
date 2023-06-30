@@ -109,15 +109,16 @@ def logout():
 @app.route('/players/<player_id>')
 def player_page(player_id):
     """View player's individual page."""
+    proxadd = 'http://gate.smartproxy.com:10000'
     player = crud.get_player_by_id(player_id)
-    player_info = commonplayerinfo.CommonPlayerInfo(f'{player_id}')
+    player_info = commonplayerinfo.CommonPlayerInfo(f'{player_id}', proxy=proxadd)
     player_stats = player_info.player_headline_stats.get_dict()
     if player_stats['data'] != []:
         player_stats = player_stats['data'][0]
     else:
         player_stats = ['N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A']
-    time.sleep(5)
-    player_dash = playerdashboardbygamesplits.PlayerDashboardByGameSplits(f'{player_id}')
+    time.sleep(1)
+    player_dash = playerdashboardbygamesplits.PlayerDashboardByGameSplits(f'{player_id}', proxy=proxadd)
     player_dash = player_dash.get_normalized_dict()
     player_dash = player_dash['OverallPlayerDashboard']
     try: 
