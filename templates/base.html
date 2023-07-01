@@ -20,32 +20,39 @@
   </head>
   <body>
     <div class="text-bg-light p-3 brand-text">
-    <nav class="navbar navbar-expand-lg" style="background-color: #b62d27;">
-      <div class="container-fluid pokemonAnimeText">
-        <a class="navbar-brand" href="/">
-          <img src="https://media.discordapp.net/attachments/1012857159421263942/1115765963162386493/Gr0wlitttbeats_pokeball_basketball_logo_53d0d645-11b6-4602-803a-13085909be6f.png?width=1306&height=1306" alt="Logo" width="40" height="38"> 
-          Pokéhoops
-        </a>
-        <a class="nav-link" href="/players">
-          View All Players
-        </a>
-        <a class="nav-link" href="/teams">
-          View All Teams
-        </a>
-        <a class="nav-link" href="/make_a_starting_5">
-          Create a Starting Five
-        </a>
-        {% if session.get('user_email') %}
-        <a class="nav-link" href="/user_dashboard">
-          View Dashboard
-        </a>
-        {% else %}
-        <a class="nav-link" href="/login">
-          Login/Signup
-        </a>
-        {% endif %}
-      </div>
-    </nav>
+      <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #b62d27;">
+        <div class="container-fluid pokemonAnimeText">
+          <a class="navbar-brand" href="/">
+            <img src="https://media.discordapp.net/attachments/1012857159421263942/1115765963162386493/Gr0wlitttbeats_pokeball_basketball_logo_53d0d645-11b6-4602-803a-13085909be6f.png?width=1306&height=1306" alt="Logo" width="40" height="38"> 
+            Pokéhoops
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="navbar-brand">
+                <a class="nav-link" href="/players">View All Players</a>
+              </li>
+              <li class="navbar-brand">
+                <a class="nav-link" href="/teams">View All Teams</a>
+              </li>
+              <li class="navbar-brand">
+                <a class="nav-link" href="/make_a_starting_5">Create a Starting Five</a>
+              </li>
+              {% if session.get('user_email') %}
+              <li class="navbar-brand">
+                <a class="nav-link" href="/user_dashboard">View Dashboard</a>
+              </li>
+              {% else %}
+              <li class="navbar-brand">
+                <a class="nav-link" href="/login">Login/Signup</a>
+              </li>
+              {% endif %}
+            </ul>
+          </div>
+        </div>
+      </nav>
   </div>
 <div class="text-bg-light p-3">
     {% for msg in get_flashed_messages() %}
