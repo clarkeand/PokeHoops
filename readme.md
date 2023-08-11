@@ -55,4 +55,4 @@ This project is licensed under the MIT License - see the LICENSE.md file for det
 
 ### Acknowledgements
 
-We want to express our gratitude to the NBA (and to the NBA_API) for providing the stats data and to Pokémon for the inspiration.
+We want to express our gratitude to the NBA (and to the NBA_API) for providing the stats data for the project and to Pokémon for the inspiration.
